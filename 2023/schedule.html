@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Feb 21 2023 03:17:48 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Feb 23 2023 00:33:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63ed2a95863af2eb6ca7d6cf" data-wf-site="63e263b588eb9d74188d3594">
 <head>
   <meta charset="utf-8">
@@ -26,6 +26,14 @@
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../images/webclip.png" rel="apple-touch-icon">
+  <script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+    const grid = document.querySelector(".grid");
+    for (var i = grid.children.length; i >= 0; i--) {
+        grid.appendChild(grid.children[Math.random() * i | 0]);
+    }
+});
+</script>
   <style>
 body {
 overflow-x: hidden;
@@ -34,7 +42,7 @@ overflow-x: hidden;
 </head>
 <body class="body">
   <div class="container-2 w-container">
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation button-header w-nav">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="18638a64-158e-82a5-ef35-2151b27a4e25" data-easing="ease" data-easing2="ease" role="banner" class="navigation button-header w-nav">
       <div class="navigation-wrap">
         <div class="navigation-logo">
           <a href="../index.html" class="logo-link w-nav-brand"><img src="../images/logo.svg" width="108" alt="DeSci Denver Logo" class="logo-image"></a>
@@ -42,8 +50,8 @@ overflow-x: hidden;
         <div class="menu">
           <nav role="navigation" class="navigation-items w-nav-menu">
             <a href="../2023/speakers.html" class="navigation-item w-nav-link">Speakers</a>
-            <a href="../2023/schedule.html" aria-current="page" class="navigation-item w-nav-link w--current">schedule</a>
-            <a href="../index.html" class="navigation-item last w-nav-link">Tickets</a>
+            <a href="../2023/schedule.html" aria-current="page" class="navigation-item w-nav-link w--current">Schedule</a>
+            <a href="../2023/livestream.html" class="navigation-item w-nav-link">Livestream</a>
           </nav>
           <div class="navigation-cta">
             <div class="w-embed w-iframe w-script"><button class="button secondary header" data-tf-popup="um7Pp9Kb" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=DeSci.Denver [registration]" data-tf-auto-close="" data-tf-transitive-search-params="" data-tf-medium="snippet">Register Now</button>
@@ -57,9 +65,8 @@ overflow-x: hidden;
     <div class="section">
       <div class="frame">
         <div class="frame-hero-left schedule">
-          <div class="text-wrapper">
-            <h1 class="heading-10">Schedule</h1>
-          </div>
+          <h1 class="schedule-heading">Schedule</h1>
+          <div class="schedule-subheading"><strong class="bold-text-108">DeSci</strong><strong class="bold-text-109">Denver</strong>2023</div>
         </div>
         <div class="frame-hero-right schedule"><img src="../images/bg-schedule.svg" loading="lazy" alt="" class="schedule-bg">
           <p class="headings-sans-regular-44">February 27 - March 2, 2023</p>
@@ -582,8 +589,8 @@ overflow-x: hidden;
               <div class="frame-left two-thirds">
                 <div class="event-name-wrap">
                   <div class="paragraph-sans-medium-32 green mobile">11:00pm - 11:30pm</div>
-                  <h1 class="headings-sans-regular-48">DAOs: Beyond the Money</h1>
-                  <p class="paragraph-sans-regular-20">This session explores how engagement in DAOs can be driven without financial incentives. Join Rachel Rose from Opolis, Jonathan Starr from the Science Commons Initiative, and Morgan Stuart, M.D. from MedDAO to dive into novel incentive mechanisms for contribution.</p>
+                  <h1 class="headings-sans-regular-48">DeSci Networking + Scientific Presentations - ResearchHub at ETHDenver</h1>
+                  <p class="paragraph-sans-regular-20">T﻿he ResearchHub community is hosting a day long event to bring the DeSci community together with the goal of discussing our favorite topic - science! Join the ResearchHub team and greater DeSci community for a full day of journal clubs, research presentations, and networking. </p>
                   <div class="schedule-event-details mobile">
                     <div class="paragraph-sans-medium-32">DAODenver</div>
                     <div class="paragraph-sans-regular-20">The Catalyst Event Center<br></div>
@@ -595,11 +602,64 @@ overflow-x: hidden;
                 </div>
               </div>
               <div class="frame-right third hide-mobile">
+                <div class="paragraph-sans-medium-32 green">10:00am - 4:00pm</div>
+                <div class="schedule-event-details">
+                  <div class="paragraph-sans-medium-32">ETHDenver</div>
+                  <div class="paragraph-sans-regular-20">1261 Delaware Street, Denver, CO<br></div>
+                  <div class="paragraph-sans-regular-20">80204<br></div>
+                </div>
+              </div>
+            </a>
+            <div class="group-content">
+              <div class="single-event">
+                <div class="single-event-title">
+                  <div class="paragraph-sans-medium-24">10:00am - 11:30am</div>
+                  <h3 class="headings-sans-regular-40">Academic presentations facilitated by discussion hosted on ResearchHub.com</h3>
+                </div>
+              </div>
+              <div class="single-event">
+                <div class="single-event-title">
+                  <div class="paragraph-sans-medium-24">11:30am - 1:30pm</div>
+                  <h3 class="headings-sans-regular-40">Lunch break, networking, and DeSci project Q&amp;A</h3>
+                </div>
+              </div>
+              <div class="single-event">
+                <div class="single-event-title">
+                  <div class="paragraph-sans-medium-24">1:30am - 3:30pm</div>
+                  <h3 class="headings-sans-regular-40">Interactive journal clubs</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="frame">
+        <div class="event-wrap">
+          <div class="single-event-wrap">
+            <a plausible="Pricing - 0522 - Box FAQ - Subscription how work" href="#" class="event-bar w-inline-block">
+              <div class="frame-left third hide-mobile">
                 <div class="paragraph-sans-medium-32 green">11:00am - 11:30am</div>
                 <div class="schedule-event-details">
                   <div class="paragraph-sans-medium-32">DAODenver</div>
                   <div class="paragraph-sans-regular-20">The Catalyst Event Center<br></div>
                   <div class="paragraph-sans-regular-20">1881 35th Street, Denver, CO 80216<br></div>
+                </div>
+              </div>
+              <div class="frame-right event-frame">
+                <div class="event-name-wrap">
+                  <div class="paragraph-sans-medium-32 green mobile">11:00pm - 11:30pm</div>
+                  <h1 class="headings-sans-regular-48">DAOs: Beyond the Money</h1>
+                  <p class="paragraph-sans-regular-20">This session explores how engagement in DAOs can be driven without financial incentives. Join Rachel Rose from Opolis, Jonathan Starr from the Science Commons Initiative, and Morgan Stuart, M.D. from MedDAO to dive into novel incentive mechanisms for contribution.</p>
+                  <div class="schedule-event-details mobile">
+                    <div class="paragraph-sans-medium-32">DAODenver</div>
+                    <div class="paragraph-sans-regular-20">The Catalyst Event Center<br></div>
+                    <div class="paragraph-sans-regular-20">1881 35th Street, Denver, CO 80216<br></div>
+                  </div>
+                </div>
+                <div data-w-id="fbdff194-e84b-eb19-3078-28272f505390" class="button secondary">
+                  <div class="text-block">view details</div><img src="../images/Icon-Chevron.svg" loading="lazy" alt="Icon chevron" class="button-chevron">
                 </div>
               </div>
             </a>
@@ -635,15 +695,7 @@ overflow-x: hidden;
         <div class="event-wrap">
           <div class="single-event-wrap">
             <a plausible="Pricing - 0522 - Box FAQ - Subscription how work" href="#" class="event-bar w-inline-block">
-              <div class="frame-left third hide-mobile">
-                <div class="paragraph-sans-medium-32 green">1:30pm - 3:00pm</div>
-                <div class="schedule-event-details">
-                  <div class="paragraph-sans-medium-32">DAODenver</div>
-                  <div class="paragraph-sans-regular-20">The Catalyst Event Center<br></div>
-                  <div class="paragraph-sans-regular-20">1881 35th Street, Denver, CO 80216<br></div>
-                </div>
-              </div>
-              <div class="frame-right event-frame">
+              <div class="frame-left two-thirds">
                 <div class="event-name-wrap">
                   <div class="paragraph-sans-medium-32 green mobile">1:30pm - 3:00pm</div>
                   <h1 class="headings-sans-regular-48">Decentralized Compute and AI for DAOs and DeSci</h1>
@@ -654,8 +706,16 @@ overflow-x: hidden;
                     <div class="paragraph-sans-regular-20">1881 35th Street, Denver, CO 80216<br></div>
                   </div>
                 </div>
-                <div data-w-id="fbdff194-e84b-eb19-3078-28272f505390" class="button secondary">
+                <div data-w-id="c676a52b-6ed4-7158-3de7-e97f48de8093" class="button secondary">
                   <div class="text-block">view details</div><img src="../images/Icon-Chevron.svg" loading="lazy" alt="Icon chevron" class="button-chevron">
+                </div>
+              </div>
+              <div class="frame-right third hide-mobile">
+                <div class="paragraph-sans-medium-32 green">1:30pm - 3:00pm</div>
+                <div class="schedule-event-details">
+                  <div class="paragraph-sans-medium-32">DAODenver</div>
+                  <div class="paragraph-sans-regular-20">The Catalyst Event Center<br></div>
+                  <div class="paragraph-sans-regular-20">1881 35th Street, Denver, CO 80216<br></div>
                 </div>
               </div>
             </a>
@@ -1039,12 +1099,12 @@ overflow-x: hidden;
               <div class="single-event">
                 <div class="single-event-title">
                   <div class="paragraph-sans-medium-24">3:05pm - 3:45pm</div>
-                  <h3 class="headings-sans-regular-40">Decentralized AI &amp; Compute for Pubic Goods</h3>
+                  <h3 class="headings-sans-regular-40">Decentralized AI &amp; Compute for Public Goods</h3>
                 </div>
                 <div class="single-event-speakers">
                   <div class="paragraph-sans-medium-24 m-8">Speakers</div>
                   <div class="single-event-speaker">
-                    <div class="paragraph-sans-medium-18 green">Dan Gossen</div>
+                    <div class="paragraph-sans-medium-18 green">Don Gossen</div>
                     <div class="paragraph-sans-medium-16">Nevermined</div>
                   </div>
                   <div class="single-event-speaker">
@@ -1114,9 +1174,9 @@ overflow-x: hidden;
           <div class="giant-text">Register</div>
           <div class="div-block-9">
             <p class="paragraph-sans-regular-32">You need to register for each of our partner venues in order to attend all the DeSci.Denver events.</p>
-            <a href="https://form.typeform.com/to/IxNtkv6S" target="_blank" class="button w-inline-block">
-              <div class="text-block">Sponsor this event</div>
-            </a>
+            <div class="w-embed w-iframe w-script"><button class="button" data-tf-popup="um7Pp9Kb" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=DeSci.Denver [registration]" data-tf-auto-close="" data-tf-transitive-search-params="" data-tf-medium="snippet">Register Now</button>
+              <script src="https://embed.typeform.com/next/embed.js"></script>
+            </div>
           </div>
         </div>
         <div class="frame-right half no-border bottom-right">
@@ -1129,30 +1189,20 @@ overflow-x: hidden;
     <div class="section footer">
       <div class="frame footer">
         <div class="footer-links">
-          <a href="https://github.com/desci-eth/" target="_blank" class="w-inline-block">
-            <div class="footer-link">
-              <div class="footer-link-text">Github</div><img src="../images/github.svg" loading="lazy" alt="Icon GitHub">
-            </div>
+          <a href="https://github.com/desci-eth/" target="_blank" class="footer-link w-inline-block">
+            <div class="footer-link-text">Github</div><img src="../images/github.svg" loading="lazy" alt="Icon GitHub">
           </a>
-          <a href="https://t.me/+_OSk2SrkxF0zZTZh" target="_blank" class="w-inline-block">
-            <div class="footer-link">
-              <div class="footer-link-text">telegram</div><img src="../images/telegram.svg" loading="lazy" alt="Icon Telegram">
-            </div>
+          <a href="https://t.me/+_OSk2SrkxF0zZTZh" target="_blank" class="footer-link w-inline-block">
+            <div class="footer-link-text">telegram</div><img src="../images/telegram.svg" loading="lazy" alt="Icon Telegram">
           </a>
-          <a href="https://twitter.com/descieth" target="_blank" class="w-inline-block">
-            <div class="footer-link">
-              <div class="footer-link-text">twitter</div><img src="../images/twitter.svg" loading="lazy" alt="Icon Twitter">
-            </div>
+          <a href="https://twitter.com/descieth" target="_blank" class="footer-link w-inline-block">
+            <div class="footer-link-text">twitter</div><img src="../images/twitter.svg" loading="lazy" alt="Icon Twitter">
           </a>
-          <a href="#" target="_blank" class="w-inline-block">
-            <div class="footer-link">
-              <div class="footer-link-text">youtube</div><img src="../images/youtube.svg" loading="lazy" alt="Icon YouTube">
-            </div>
+          <a href="#" target="_blank" class="footer-link w-inline-block">
+            <div class="footer-link-text">youtube</div><img src="../images/youtube.svg" loading="lazy" alt="Icon YouTube">
           </a>
-          <a href="https://denver.desci.eth" target="_blank" class="w-inline-block">
-            <div class="footer-link">
-              <div class="footer-link-text">eth</div><img src="../images/eth.svg" loading="lazy" alt="Icon Ethereum">
-            </div>
+          <a href="https://denver.desci.eth" target="_blank" class="footer-link w-inline-block">
+            <div class="footer-link-text">eth</div><img src="../images/eth.svg" loading="lazy" alt="Icon Ethereum">
           </a>
         </div>
         <div class="copyright">DESCI DENVER © 2023</div>
