@@ -20,7 +20,7 @@ export default function Speakers() {
       <div className="grid  lg:grid-cols-12 w-[90%] md:w-[100%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] ">
         <div className="lg:col-span-8 mt-5 md:mt-14 2xl:mt-20 w-[96%] 2xl:w-[100%] mx-auto pb-5 lg:pb-0">
           <p className="font-syne font-[400] text-[35px] md:text-[80px] lg:text-[75px] xl:text-[96px] text-[#54FF7A]">
-            Speakers YYYY
+            Speakers
           </p>
           <p className="flex gap-3  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[24px] xl:text-[32px] ">
             DeSciSummit2024
