@@ -55,29 +55,6 @@ export default function Speakers() {
               />
             </svg>
           </a> 
-          <a
-            href="https://t.co/1xTBOCaLgK"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px] uppercase transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white rounded-[4px] py-4 px-6 md:px-6"
-            >
-            apply to speak
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4 h-4 self-center"
-              >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                />
-            </svg>
-          </a>
-
         </div> 
         <div className="hidden lg:block lg:col-span-4">
           <img src={SpBanner} alt="" />
