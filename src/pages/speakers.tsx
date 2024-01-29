@@ -37,7 +37,7 @@ export default function Speakers() {
             href="https://t.co/1xTBOCaLgK"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px] uppercase transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 "
+            className="mt-5 text text-center inline-flex gap-2 font-ubuntu font-normal text-[#152EA0] text-[17px] uppercase transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 "
             >
             apply to speak
             <svg
@@ -46,7 +46,7 @@ export default function Speakers() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4  h-4  self-center"
+              className="w-4  h-4"
             >
               <path
                 strokeLinecap="round"
