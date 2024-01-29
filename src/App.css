@@ -1,0 +1,125 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #152ea0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+
+.text {
+  font-family: "Ubuntu Mono", monospace;
+  font-style: normal;
+}
+.lead
+{
+  font-family: "Inter", sans-serif;
+}
+.time
+{
+  font-family: "Share Tech", sans-serif ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.query::-webkit-scrollbar {
+display: none;
+}
+
+/* Customizes the whole scrollbar */
+::-webkit-scrollbar {
+    width: 5px !important; /* Adjust the width of the scrollbar */
+}
+
+/* Customizes the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #213fc7 !important; /* Color of the track */
+    border-radius: 6px !important; /* Rounded corners on the thumb */
+    
+
+}
+
+/* Customizes the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #1833b0 !important; /* Color of the thumb */
+    border-radius: 6px !important; /* Rounded corners on the thumb */
+}
+
+.sliders::-webkit-scrollbar {
+  display: none;
+}
+
+.sliders {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-animate {
+  animation: scroll 10s linear infinite;
+  display: inline-block; /* To ensure the p tags align properly in the scroll */
+}
+
+._qWTcH
+{
+  justify-content: center !important;
+}
+
+
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.slide {
+width: 100%;
+}
+
+
+@media (max-width: 910px) {
+  ._qWTcH
+  {
+    justify-content: center !important;
+    display: grid !important;
+  }
+  ._1tbqx ._2hRXr
+  {
+    margin: 0 !important;
+  }  
+}
+
+
+@media (max-width: 361px) {
+
+  #btn
+  {
+    font-size: 12px !important;
+  }
+ }
+
+@media (max-width: 330px) {
+.ins
+{
+  font-size: 18px !important;
+}
+}
