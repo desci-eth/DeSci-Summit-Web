@@ -6,7 +6,7 @@ import Card8 from "../../assets/png/Group 1638.png";
 import Card9 from "../../assets/png/Group 1639.png";
 import Card10 from "../../assets/png/Group 1640.png";
 
-export default function Sponers() {
+export default function Sponsers() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-12 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto border-b-[1px] border-[#6AD585] py-10 lg:py-0">
@@ -23,23 +23,29 @@ export default function Sponers() {
             You need to register for each of our partner venues in order to
             attend all the DeSci.Denver events.
           </p>
-          <button className="mt-5 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 ">
-            REGISTER NOW
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4  h-4  self-center"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </button>
+          <a
+  id="btn"
+  href="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center gap-2 font-ubuntu font-[700] text-[#152EA0] text-[15px] md:text-[18px] transition duration-500 ease-in-out transform bg-[#54FF7A] hover:bg-[#54FF7A] hover:text-white rounded-[4px] py-4 px-4 md:px-8 w-[50%] md:w-auto uppercase mt-10 self-center"
+>
+  Register Now
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="w-4 h-4 self-center"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+    />
+  </svg>
+</a>
         </div>
       </div>
 
@@ -56,23 +62,22 @@ export default function Sponers() {
             events and support fellow scientists with consultation, funding or
             more.
           </p>
-          <button className="mt-10 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 mx-auto lg:mx-0">
-          REGISTER AS A SPONSOR
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4  h-4  self-center"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </button>
+                    <a href="mailto:hello@opscientia.com?subject=Interest in
+          Sponsoring DeSci Summit&body=Dear DeSci Summit
+          team,%0D%0A%0D%0AI am interested in learning more about
+          how to sponsor the event." className="mt-5 text text-center
+          inline-flex items-center gap-2 font-ubuntu font-
+          [400] text-[#54FF7A] text-[17px] border-[1px] border-
+          [#54FF7A] transition duration-500 ease-in-out transform
+          hover:bg-[#54FF7A] hover:text-white rounded-[4px] py-4
+          px-6 md:px-6 uppercase"
+            > Make your Sponsor Pledge <svg xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" strokeWidth=
+              {1.5} stroke="currentColor" className="w-4 h-4
+              self-center"
+            > <path strokeLinecap="round" strokeLinejoin="round"
+              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              /> </svg> </a>
         </div>
       </div>
 

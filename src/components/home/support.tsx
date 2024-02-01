@@ -52,7 +52,18 @@ export default function Support() {
             </p>
           </div>
           <div>
-            <button
+           <a href="mailto:hello@opscientia.com?subject=Interest in
+          Sponsoring DeSci Summit&body=Dear DeSci Summit
+          team,%0D%0A%0D%0AI am interested in learning more about
+          how to sponsor the event." className="mt-5 lg:mt-10 text self-center flex justify-center gap-2 font-ubuntu font-[700] text-[#152EA0] text-[15px] xl:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 md:px-20  w-[100%] md:w-auto mx-auto lg:ml-auto  uppercase "
+            > Interested in Sponsoring? <svg xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" strokeWidth=
+              {1.5} stroke="currentColor" className="w-5 h-5
+              self-center"
+            > <path strokeLinecap="round" strokeLinejoin="round"
+              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              /> </svg> </a>
+            {/*<button
               id=""
               className="mt-5 lg:mt-10 text self-center flex justify-center gap-2 font-ubuntu font-[700] text-[#152EA0] text-[15px] xl:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 md:px-20  w-[100%] md:w-auto mx-auto lg:ml-auto  uppercase"
             >
@@ -71,7 +82,7 @@ export default function Support() {
                   d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                 />
               </svg>
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
