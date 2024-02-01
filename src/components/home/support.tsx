@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../../assets/png/Group 1627.png";
 import Card2 from "../../assets/png/Group 1628.png";
 import Card3 from "../../assets/png/Group 1630.png";
@@ -24,15 +25,28 @@ export default function Support() {
 
         <div className=" md:w-[60%] mx-auto pt-10">
           <div className="md:flex gap-5">
-            <img src={Card} alt="" className="md:w-[50%]" />
-            <img src={Card2} alt="" className="md:w-[50%] mt-5 md:mt-0" />
+           <Link to="https://opsci.xyz" target="_blank" className="md:w-[50%]">
+
+            <img src={Card} alt=""  />
+            </Link>
+           <Link to="https://thesciencecommons.org/" target="_blank" className="md:w-[50%]">
+
+            <img src={Card2} alt="" className=" mt-5 md:mt-0" />
+            </Link>
           </div>
           <p className="lead font-[400] text-[30px] text-white pt-5 text-center">
             with <span className="text-[#54FF7A]"> support from, </span>
           </p>
           <div className="md:flex gap-5 mt-5">
-            <img src={Card4} alt="" className="md:w-[50%]" />
-            <img src={Card3} alt="" className="md:w-[50%] mt-5 md:mt-0" />
+            
+           <Link to="https://desci.world/" target="_blank" className="md:w-[50%]">
+            
+            <img src={Card4} alt=""  />
+            </Link>
+           <Link to="https://desci.com" target="_blank" className="md:w-[50%]">
+
+            <img src={Card3} alt="" className="mt-5 md:mt-0" />
+            </Link>
           </div>
         </div>
       </div>
@@ -91,13 +105,21 @@ export default function Support() {
         <div className="grid md:grid-cols-3 gap-5 w-[90%] md:w-[80%] 2xl:w-[50%] mx-auto">
           
           <div>
+            <Link to="https://www.smartcontractresearch.org/" target="_blank" >
             <img src={Card6} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://www.mfoundation.org/" target="_blank" >
+
             <img src={Card5} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://foresight.org/" target="_blank" >
+
             <img src={Card7} alt="" />
+            </Link>
           </div>
         </div>
         {/* <div className="grid md:grid-cols-2 gap-5 w-[90%] md:w-[50%] 2xl:w-[34%] mx-auto mt-5">
@@ -110,13 +132,22 @@ export default function Support() {
         </div> */}
         <div className="grid md:grid-cols-3 gap-5 w-[90%] md:w-[80%] 2xl:w-[50%] mx-auto mt-5">
           <div>
+          <Link to="https://daoplanet.org/" target="_blank" >
+
             <img src={Card8} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://schellingpoint.gitcoin.co/" target="_blank" >
+
             <img src={Card9} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="http://ethdenver.com" target="_blank" >
+
             <img src={Card10} alt="" />
+            </Link>
           </div>
         </div>
       </div>
