@@ -6,7 +6,7 @@ import Play from "../../assets/svg/play.svg"
 
 const VideoThree = () => {
   const [play, setPlay] = useState(false);
-  const videoUrl = 'https://www.youtube.com/embed/IFQI8dkHpE0?si=qxp27pT_CrHkFB43'; // Your video URL
+  const videoUrl = 'https://www.youtube.com/embed/KSf7N1tDXr4?si=b6z17fD9JdbOhY-f'; // Your video URL
 
 
   const handlePlay = () => {

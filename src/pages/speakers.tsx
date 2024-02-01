@@ -9,7 +9,7 @@ from "../components/home/query"; import Register
 from "../components/home/register"; import Time
 from "../assets/svg/TIME REMAINING.svg"; import Expect
 from "../components/speakers/expect"; import Speaker
-from "../components/speakers/speaker"; import Sponsers
+from "../components/speakers/speaker"; import Sponsors
 from "../components/speakers/sponsors"; import Count
 from "../components/speakers/count";
 
@@ -44,7 +44,7 @@ and science advocacy through community building and coordination. </p>
 
       <Count />
 
-      <Expect /> <Sponsers /> <ImageSlider /> <ImageTwoSlider /> <div
+      <Expect /> <Sponsors /> <ImageSlider /> <ImageTwoSlider /> <div
       className="lg:pt-10  lg:border-b-[1px] border-[#4FA366] w-
       [90%] md:w-[97%] 2xl:w-[80%] mx-auto"></div> <Register />
       <Footer /> </> ); }
