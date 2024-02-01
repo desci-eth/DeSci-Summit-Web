@@ -20,7 +20,7 @@ export default function Speakers() {
       <div className="grid  lg:grid-cols-12 w-[90%] md:w-[100%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] ">
         <div className="lg:col-span-8 mt-5 md:mt-14 2xl:mt-20 w-[96%] 2xl:w-[100%] mx-auto pb-5 lg:pb-0">
           <p className="font-syne font-[400] text-[35px] md:text-[80px] lg:text-[75px] xl:text-[96px] text-[#54FF7A]">
-            Speakers YYYY
+            Speakers
           </p>
           <p className="flex gap-3  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[24px] xl:text-[32px] ">
             DeSciSummit2024
@@ -33,7 +33,12 @@ export default function Speakers() {
             advocacy through community building and coordination.
           </p>
 
-          <button className="mt-5 text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px] uppercase transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 ">
+          <a 
+            href="https://t.co/1xTBOCaLgK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 text text-center inline-flex gap-2 font-ubuntu font-normal text-[#152EA0] text-[17px] uppercase transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 "
+            >
             apply to speak
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +46,7 @@ export default function Speakers() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4  h-4  self-center"
+              className="w-4  h-4"
             >
               <path
                 strokeLinecap="round"
@@ -49,9 +54,8 @@ export default function Speakers() {
                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
               />
             </svg>
-          </button>
-        </div>
-
+          </a> 
+        </div> 
         <div className="hidden lg:block lg:col-span-4">
           <img src={SpBanner} alt="" />
         </div>
