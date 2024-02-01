@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../../assets/png/Group 1627.png";
 import Card2 from "../../assets/png/Group 1628.png";
 import Card3 from "../../assets/png/Group 1630.png";
@@ -18,15 +19,27 @@ export default function Brought() {
 
         <div className="md:w-[60%] xl:w-[50%] mx-auto pt-10">
           <div className="md:flex gap-5">
-            <img src={Card} alt="" className="md:w-[50%]" />
-            <img src={Card2} alt="" className="md:w-[50%] mt-5 md:mt-0" />
+           <Link to="https://opsci.xyz" target="_blank" className="md:w-[50%]">
+
+            <img src={Card} alt=""  />
+            </Link>
+           <Link to="https://thesciencecommons.org/" target="_blank" className="md:w-[50%]">
+
+            <img src={Card2} alt="" className=" mt-5 md:mt-0" />
+            </Link>
           </div>
           <p className="lead font-[400] text-[20px] md:text-[30px] text-white py-5 md:py-10 text-center">
             with <span className="text-[#54FF7A]"> support from, </span>
           </p>
           <div className="md:flex gap-5 ">
-            <img src={Card4} alt="" className="md:w-[50%]" />
-            <img src={Card3} alt="" className="md:w-[50%] mt-5 md:mt-0" />
+           <Link to="https://desci.world/" target="_blank" className="md:w-[50%]">
+
+            <img src={Card4} alt="" />
+            </Link>
+           <Link to="https://desci.com" target="_blank" className="md:w-[50%]">
+
+            <img src={Card3} alt="" className=" mt-5 md:mt-0" />
+            </Link>
           </div>
         </div>
       </div>

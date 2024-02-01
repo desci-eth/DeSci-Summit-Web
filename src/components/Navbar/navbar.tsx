@@ -83,27 +83,7 @@ export default function Navbar() {
                     </svg>
                   </div>
                   <div className="h-[160px] overflow-y-scroll">
-                    <p
-                      onClick={() => setIsOpen(false)}
-                      className="font-syne font-[400] text-[15px] text-white text-center py-1 hover:bg-[#152EA0] hover:text-[#54FF7A] border-b-[#213fc7] border-b-[2px] border-l-[2px] border-l-transparent hover:border-l-[#54FF7A] cursor-pointer"
-                    >
-                      {" "}
-                      2018{" "}
-                    </p>
-                    <p
-                      onClick={() => setIsOpen(false)}
-                      className="font-syne font-[400] text-[15px] text-white text-center py-1 hover:bg-[#152EA0] hover:text-[#54FF7A] border-b-[#213fc7] border-b-[2px] border-l-[2px] border-l-transparent hover:border-l-[#54FF7A] cursor-pointer"
-                    >
-                      {" "}
-                      2019{" "}
-                    </p>
-                    <p
-                      onClick={() => setIsOpen(false)}
-                      className="font-syne font-[400] text-[15px] text-white text-center py-1 hover:bg-[#152EA0] hover:text-[#54FF7A] border-b-[#213fc7] border-b-[2px] border-l-[2px] border-l-transparent hover:border-l-[#54FF7A] cursor-pointer"
-                    >
-                      {" "}
-                      2020{" "}
-                    </p>
+                    
                     <p
                       onClick={() => setIsOpen(false)}
                       className="font-syne font-[400] text-[15px] text-white text-center py-1 hover:bg-[#152EA0] hover:text-[#54FF7A] border-b-[#213fc7] border-b-[2px] border-l-[2px] border-l-transparent hover:border-l-[#54FF7A] cursor-pointer"
@@ -125,13 +105,7 @@ export default function Navbar() {
                       {" "}
                       2023{" "}
                     </p>
-                    <p
-                      onClick={() => setIsOpen(false)}
-                      className="font-syne font-[400] text-[15px] text-white text-center py-1 hover:bg-[#152EA0] hover:text-[#54FF7A] border-b-[#213fc7] border-l-[2px] border-l-transparent hover:border-l-[#54FF7A]  cursor-pointer rounded-b-md"
-                    >
-                      {" "}
-                      2024{" "}
-                    </p>
+
                   </div>
                 </div>
               </div>
@@ -190,6 +164,18 @@ export default function Navbar() {
               />
             </svg>
           </button> */}
+      
+      <Link
+            to="https://airtable.com/app0wgQCdFBk4sZ4j/pagd4da0BL96BQfRM/form"
+            target="_blank"
+            className="self-center"
+          >
+            <button className=" text self-center  font-ubuntu font-[400] text-white text-[12px] xl:text-[18px] 2xl:text-[20px] border-[1px] border-white transition duration-500 ease-in-out transform     rounded-[4px] py-3 px-4 uppercase">
+            hacker house
+              
+            </button>
+          </Link>
+
           <Link
             to="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
             target="_blank"

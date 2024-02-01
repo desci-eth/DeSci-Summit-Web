@@ -5,6 +5,7 @@ import Card7 from "../../assets/png/Group 1637.png";
 import Card8 from "../../assets/png/Group 1638.png";
 import Card9 from "../../assets/png/Group 1639.png";
 import Card10 from "../../assets/png/Group 1640.png";
+import { Link } from "react-router-dom";
 
 export default function Sponers() {
   return (
@@ -23,23 +24,29 @@ export default function Sponers() {
             You need to register for each of our partner venues in order to
             attend all the DeSci.Denver events.
           </p>
-          <button className="mt-5 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 ">
-            REGISTER NOW
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4  h-4  self-center"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </button>
+
+          <Link
+            to="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
+            target="_blank"
+          >
+            <button className="mt-5 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 ">
+              REGISTER NOW
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4  h-4  self-center"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -50,44 +57,55 @@ export default function Sponers() {
           </p>
         </div>
         <div className="col-span-8 lg:pl-10 lg:py-10">
-          
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[24px]  xl:text-[30px] mt-2 text-white text-center lg:text-start">
             Partner with DeSci Denver by becoming an active sponsor of the
             events and support fellow scientists with consultation, funding or
             more.
           </p>
-          <button className="mt-10 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 mx-auto lg:mx-0">
-          REGISTER AS A SPONSOR
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4  h-4  self-center"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </button>
+
+          <Link
+            to="https://airtable.com/apptAi2tFe7I5lDvn/shryNlfnencagSmCO"
+            target="_blank"
+          >
+            <button className="mt-10 text self-center flex gap-2 font-ubuntu font-[700] text-[#152EA0] text-[17px] md:text-[18px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-6 md:px-6 mx-auto lg:mx-0">
+              REGISTER AS A SPONSOR
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4  h-4  self-center"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
 
-
       <div className="py-10 md:py-20">
         <div className="grid md:grid-cols-3 gap-5 w-[90%] md:w-[80%] 2xl:w-[50%] mx-auto">
-          
-          <div>
+        <div>
+            <Link to="https://www.smartcontractresearch.org/" target="_blank" >
             <img src={Card6} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://www.mfoundation.org/" target="_blank" >
+
             <img src={Card5} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://foresight.org/" target="_blank" >
+
             <img src={Card7} alt="" />
+            </Link>
           </div>
         </div>
         {/* <div className="grid md:grid-cols-2 gap-5 w-[90%] md:w-[50%] 2xl:w-[34%] mx-auto mt-5">
@@ -99,18 +117,26 @@ export default function Sponers() {
           </div>
         </div> */}
         <div className="grid md:grid-cols-3 gap-5 w-[90%] md:w-[80%] 2xl:w-[50%] mx-auto mt-5">
-          <div>
+        <div>
+          <Link to="https://daoplanet.org/" target="_blank" >
+
             <img src={Card8} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="https://schellingpoint.gitcoin.co/" target="_blank" >
+
             <img src={Card9} alt="" />
+            </Link>
           </div>
           <div>
+          <Link to="http://ethdenver.com" target="_blank" >
+
             <img src={Card10} alt="" />
+            </Link>
           </div>
         </div>
       </div>
-
     </>
   );
 }
