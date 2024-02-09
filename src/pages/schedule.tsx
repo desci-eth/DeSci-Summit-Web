@@ -68,15 +68,16 @@ export default function Schedule() {
             <AccordionDetails>
               <div>
               <Tabs value={tabIndex} onChange={handleChange} aria-label="SciOS workshops">
-  <Tab label="Feb 26: 9am-4pm - Applications, Outputs, and Community Showcases" />
-  <Tab label="Feb 27: 9am-12pm - DID and Permissions Workshops" />
-  <Tab label="Feb 27: 1pm-4pm - Compute over Data Workshops" />
-  <Tab label="Feb 28: 9am-12pm - Funding and Incentive Design Workshops" />
-  <Tab label="Feb 28: 1pm-4pm - Open State Data Networks Workshops" />
-  <Tab label="Feb 29: 9am-12pm - FAIR data and Semantic Publishing Workshops" />
-  <Tab label="Feb 29: 1pm-4pm - AI in Open Science Workshops" />
-  <Tab label="Feb 29: 4pm-7pm - Drinks on us" />
+  <Tab label={<div><div>Feb 26: 9am-4pm</div><div>Applications, Outputs, and Community Showcases</div></div>} />
+  <Tab label={<div><div>Feb 27: 9am-12pm</div><div>DID and Permissions Workshops</div></div>} />
+  <Tab label={<div><div>Feb 27: 1pm-4pm</div><div>Compute over Data Workshops</div></div>} />
+  <Tab label={<div><div>Feb 28: 9am-12pm</div><div>Funding and Incentive Design Workshops</div></div>} />
+  <Tab label={<div><div>Feb 28: 1pm-4pm</div><div>Open State Data Networks Workshops</div></div>} />
+  <Tab label={<div><div>Feb 29: 9am-12pm</div><div>FAIR data and Semantic Publishing Workshops</div></div>} />
+  <Tab label={<div><div>Feb 29: 1pm-4pm</div><div>AI in Open Science Workshops</div></div>} />
+  <Tab label={<div><div>Feb 29: 4pm-7pm</div><div>Drinks on us</div></div>} />
 </Tabs>
+
                 <TabPanel value={tabIndex} index={0}>
                   <p>Details for Applications, Outputs, and Community Showcases</p>
                 </TabPanel>
