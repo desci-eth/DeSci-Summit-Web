@@ -67,16 +67,15 @@ export default function Schedule() {
             </AccordionSummary>
             <AccordionDetails>
               <div>
-                <Typography variant="body1">Time: 9am-5pm every day</Typography>
                 <Tabs value={tabIndex} onChange={handleChange} aria-label="SciOS workshops">
-                  <Tab label="Applications, Outputs, and Community Showcases" />
-                  <Tab label="DID and Permissions Workshops" />
-                  <Tab label="Compute over Data Workshops" />
-                  <Tab label="Funding and Incentive Design Workshops" />
-                  <Tab label="Open State Data Networks Workshops" />
-                  <Tab label="FAIR data and Semantic Publishing Workshops" />
-                  <Tab label="AI in Open Science Workshops" />
-                  <Tab label="Drinks on us" />
+                  <Tab label="Applications, Outputs, and Community Showcases (Feb 26: 9am-4pm)" />
+                  <Tab label="DID and Permissions Workshops (Feb 27: 9am-12pm)" />
+                  <Tab label="Compute over Data Workshops (Feb 27: 1pm-4pm)" />
+                  <Tab label="Funding and Incentive Design Workshops (Feb 28: 9am-12pm)" />
+                  <Tab label="Open State Data Networks Workshops (Feb 28: 1pm-4pm)" />
+                  <Tab label="FAIR data and Semantic Publishing Workshops (Feb 29: 9am-12pm)" />
+                  <Tab label="AI in Open Science Workshops (Feb 29: 1pm-4pm)" />
+                  <Tab label="Drinks on us (Feb 29: 4pm-7pm)" />
                 </Tabs>
                 <TabPanel value={tabIndex} index={0}>
                   <p>Details for Applications, Outputs, and Community Showcases</p>
