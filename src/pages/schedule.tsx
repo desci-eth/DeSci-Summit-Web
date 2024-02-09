@@ -59,7 +59,6 @@ export default function Schedule() {
             </AccordionSummary>
             <AccordionDetails>
               <div>
-                <Typography variant="body1">Time: 9am-5pm every day</Typography>
                 <ul>
                   <li><strong>Feb 26:</strong> 9am-4pm: Applications, Outputs, and Community Showcases</li>
                   <li><strong>Feb 27:</strong> 9am-12pm: DID and Permissions Workshops, 1pm-4pm: Compute over Data Workshops</li>
@@ -71,7 +70,7 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 26th</h3>
+              <Typography variant="h6">BUIDLHub: Feb 26</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -82,7 +81,7 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 27th</h3>
+              <Typography variant="h6">AuraNova: Feb 27</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -93,7 +92,7 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 28th</h3>
+              <Typography variant="h6">AuraNova Afterparty: Feb 28</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -104,7 +103,7 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">March 1st</h3>
+              <Typography variant="h6">University of Colorado: March 1</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -115,7 +114,7 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">March 2nd</h3>
+              <Typography variant="h6">Openinfo.House: March 2</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
