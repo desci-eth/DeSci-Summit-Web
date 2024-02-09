@@ -209,37 +209,37 @@ export default function Schedule() {
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:15</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>DeSci Landscape Overview and MuseMatrix</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erin Magennis</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:40</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Coordinating the Decentralized Future</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Levi Rybalov</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:05</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Building an AI Platform for Data Generating Agents</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Richard Blythman</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:40</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>“The next big thing will be a lot of small things”: Re-imagining how we make sense of science with decentralized semantic nanopublishing</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Ronen Tamari</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:05</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Self-Infrastructuring Knowledge Networks</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Michael Zargham</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:30</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Open sourcing scientific research with lab discourse graphs: a case study from our lab</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Matthew Akamatsu</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:55</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Unistellar Citizen Science Network: Toward a  Decentralized Digital Telescope Network?</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Franck Marchis</td>
           </tr>
           <tr>
@@ -249,12 +249,12 @@ export default function Schedule() {
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>1:00</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Bridging DeSci and Legacy Health Innovation</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jason Cross</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>1:25</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Data Consent Panel</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Dr. Gennaro D'Urso
 Caspar Barnes
 Ligia Kornowska</td>
@@ -267,7 +267,7 @@ AthenaDAO Researcher</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>2:35</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Focusing on Open: NumFOCUS, The Map of Open Source Science, and DeSci in the Wider Open Movement</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jonathan Starr</td>
           </tr>
           <tr>
@@ -277,17 +277,17 @@ AthenaDAO Researcher</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:20</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erik is one of the original authors of the fair paper, a lead at the GO FAIR foundation, and a recurring speaker on the topic of fair implementation.	</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erik Schultes</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:55</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Rethinking incentives for scientists: How can we improve the status quo?</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Philipp Koellinger</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>4:20</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Funding and Incentives Panel</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Stefan Adolf
 Brian 
 Raymond Cheng
