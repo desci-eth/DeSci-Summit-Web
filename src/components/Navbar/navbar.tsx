@@ -164,7 +164,18 @@ export default function Navbar() {
               />
             </svg>
           </button> */}
-      
+          
+      <Link
+            to="https://scios.desci.community"
+            target="_blank"
+            className="self-center"
+          >
+            <button className=" text self-center  font-ubuntu font-[400] text-white text-[12px] xl:text-[18px] 2xl:text-[20px] border-[1px] border-white transition duration-500 ease-in-out transform     rounded-[4px] py-3 px-4 uppercase">
+            The SciOS Workshops
+              
+            </button>
+          </Link>
+          
       <Link
             to="https://airtable.com/app0wgQCdFBk4sZ4j/pagd4da0BL96BQfRM/form"
             target="_blank"
