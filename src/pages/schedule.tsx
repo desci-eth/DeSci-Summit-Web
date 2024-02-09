@@ -44,7 +44,7 @@ export default function Schedule() {
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 19th - 3rd</h3>
+              <Typography variant="h6">DeSci World Hackerhouse: Feb 19 - March 3</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
