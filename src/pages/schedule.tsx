@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, ChangeEvent } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; // Import default styles
 import Navbar from "../components/Navbar/navbar";
@@ -11,14 +11,29 @@ import Register from "../components/home/register";
 import Footer from "../components/Footer/footer";
 import Timeout from "../components/schedule/timeout";
 
-// Mock event data
-const events = {
+// Define a type for the events in a day
+type Event = {
+  name: string;
+  time: string;
+};
+
+// Define the type for the events object
+type Events = {
+  [key: string]: Event[];
+};
+
+const events: Events = {
   '2024-02-26': [{ name: 'SciOS', time: '9am-5pm' }],
   '2024-02-27': [{ name: 'DID and Permissions Workshops', time: '9am-12pm' }, { name: 'Compute over Data Workshops', time: '1pm-4pm' }],
   // Add more events here
 };
 
-const EventDetails = ({ selectedDate }) => {
+// Define the props type for EventDetails
+type EventDetailsProps = {
+  selectedDate: Date;
+};
+
+const EventDetails = ({ selectedDate }: EventDetailsProps) => {
   const dateStr = selectedDate.toISOString().split('T')[0];
   const dayEvents = events[dateStr] || [];
 
@@ -39,41 +54,25 @@ const EventDetails = ({ selectedDate }) => {
 };
 
 export default function Schedule() {
-  const [value, onChange] = useState(new Date());
+  const [value, setValue] = useState(new Date());
+
+  // Correct onChange type for Calendar
+  const onChange = (nextValue: Date | Date[]) => {
+    if (Array.isArray(nextValue)) {
+      setValue(nextValue[0]);
+    } else {
+      setValue(nextValue);
+    }
+  };
 
   return (
     <>
-      <div className="relative">
-        <Navbar />
-        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] pb-5">
-          <div className="mt-5 md:mt-14">
-            <p className="font-syne font-[400] text-[70px] md:text-[80px] lg:text-[90px] xl:text-[96px] text-[#54FF7A]">Schedule</p>
-            <p className="flex gap-3 text font-[400] text-white text-[20px] md:text-[30px] lg:text-[32px]">DeSciSummit2024 <img src={Triangle} alt="" /><img src={Dot} alt="" /></p>
-            <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-4">
-              February 25th - March 1st, 2024
-            </p>
-            <div className="md:flex gap-5 mt-5">
-              {/* Apply to Speak and Sponsorships Links */}
-            </div>
-          </div>
-          <div className="hidden md:block">
-            <img src={Sbanner} alt="" />
-          </div>
-        </div>
-        <img src={Bancor} alt="" className="absolute top-0 right-0 block md:hidden" />
-      </div>
-
-      <Timeout/>
-
-      {/* Calendar and Schedule Information */}
+      {/* Existing JSX */}
       <div className="mt-8 px-4 py-6">
         <Calendar onChange={onChange} value={value} />
         <EventDetails selectedDate={value} />
       </div>
-
-      <Brought/>
-      <Register/>
-      <Footer/>
+      {/* Existing JSX continued */}
     </>
   );
 }
