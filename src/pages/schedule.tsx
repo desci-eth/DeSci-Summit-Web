@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from "../components/Navbar/navbar";
 import Sbanner from "../assets/png/sbanner.png";
-import Triangle from "../assets/svg/Triangle.svg";
-import Dot from "../assets/svg/dot.svg";
 import Bancor from "../assets/png/bancor.png";
 import Brought from "../components/schedule/brought";
 import Register from "../components/home/register";
 import Footer from "../components/Footer/footer";
 import Timeout from "../components/schedule/timeout";
 
-export default function Schedule() {
+const Schedule: React.FC = () => {
+  // Define the state with TypeScript
+  const [isOpen, setIsOpen] = useState<number | null>(null);
+
+  // Define the function with TypeScript
+  const toggleAccordion = (index: number): void => {
+    if (isOpen === index) {
+      setIsOpen(null); // Close accordion if it's already open
+    } else {
+      setIsOpen(index); // Open the clicked accordion
+    }
+  };
+
   return (
     <>
       <div className="relative">
@@ -34,17 +44,12 @@ export default function Schedule() {
 
       <Timeout/>
 
-      {/* Schedule Information Enhanced */}
+       {/* Enhanced Schedule Information */}
       <div className="mt-8 px-4 py-6 bg-[#f5f5f5]">
         <h2 className="text-2xl font-bold mb-4 text-center text-[#54FF7A]">Event Schedule</h2>
         <div className="space-y-6">
-
-          {/* Day 1 - Simple Card Example */}
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <h3 className="text-lg font-semibold text-[#152EA0]">Feb 19th - 3rd: DeSci HackerHouse</h3>
-          </div>
-
-          {/* Day 2 - Accordion Example */}
+          {/* Schedule content goes here */}
+          {/* Example with Accordion */}
           <div className={`bg-white rounded-lg shadow ${isOpen === 1 ? 'mb-4' : 'mb-0'}`}>
             <div className="p-6 cursor-pointer" onClick={() => toggleAccordion(1)}>
               <h3 className="font-semibold text-lg text-[#152EA0] flex justify-between items-center">
@@ -57,14 +62,12 @@ export default function Schedule() {
             {isOpen === 1 && (
               <div className="p-6 pt-0 space-y-2">
                 <ul className="list-disc ml-8">
-                  {/* List your detailed events here */}
+                  {/* Detailed events here */}
                 </ul>
               </div>
             )}
           </div>
-
-          {/* More days and events as needed following the pattern above */}
-
+          {/* Additional days/events */}
         </div>
       </div>
 
@@ -72,5 +75,9 @@ export default function Schedule() {
       <Register/>
       <Footer/>
     </>
+  );
+}
+
+export default Schedule;
   );
 }
