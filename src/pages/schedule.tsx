@@ -52,7 +52,10 @@ export default function Schedule() {
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">DeSci World Hackerhouse: Feb 19 - March 3</Typography>
+              <div>
+                <Typography variant="subtitle1">Feb 19 - March 3</Typography>
+                <Typography variant="h6">DeSci World Hackerhouse</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -63,19 +66,22 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">SciOS: Feb 26 - 29th</Typography>
+              <div>
+                <Typography variant="subtitle1">Feb 26 - 29th</Typography>
+                <Typography variant="h6">SciOS</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
                 <Tabs value={tabIndex} onChange={handleChange} aria-label="SciOS workshops">
-                  <Tab label="Applications, Outputs, and Community Showcases (Feb 26: 9am-4pm)" />
-                  <Tab label="DID and Permissions Workshops (Feb 27: 9am-12pm)" />
-                  <Tab label="Compute over Data Workshops (Feb 27: 1pm-4pm)" />
-                  <Tab label="Funding and Incentive Design Workshops (Feb 28: 9am-12pm)" />
-                  <Tab label="Open State Data Networks Workshops (Feb 28: 1pm-4pm)" />
-                  <Tab label="FAIR data and Semantic Publishing Workshops (Feb 29: 9am-12pm)" />
-                  <Tab label="AI in Open Science Workshops (Feb 29: 1pm-4pm)" />
-                  <Tab label="Drinks on us (Feb 29: 4pm-7pm)" />
+                  <Tab label="Applications, Outputs, and Community Showcases" />
+                  <Tab label="DID and Permissions Workshops" />
+                  <Tab label="Compute over Data Workshops" />
+                  <Tab label="Funding and Incentive Design Workshops" />
+                  <Tab label="Open State Data Networks Workshops" />
+                  <Tab label="FAIR data and Semantic Publishing Workshops" />
+                  <Tab label="AI in Open Science Workshops" />
+                  <Tab label="Drinks on us" />
                 </Tabs>
                 <TabPanel value={tabIndex} index={0}>
                   <p>Details for Applications, Outputs, and Community Showcases</p>
@@ -104,9 +110,12 @@ export default function Schedule() {
               </div>
             </AccordionDetails>
           </Accordion>
-           <Accordion>
+          <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">BUIDLHub: Feb 26</Typography>
+              <div>
+                <Typography variant="subtitle1">Feb 26</Typography>
+                <Typography variant="h6">BUIDLHub</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -117,7 +126,10 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">AuraNova: Feb 27</Typography>
+              <div>
+                <Typography variant="subtitle1">Feb 27</Typography>
+                <Typography variant="h6">AuraNova</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -128,7 +140,10 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">AuraNova Afterparty: Feb 28</Typography>
+              <div>
+                <Typography variant="subtitle1">Feb 28</Typography>
+                <Typography variant="h6">AuraNova Afterparty</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -139,7 +154,10 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">University of Colorado: March 1</Typography>
+              <div>
+                <Typography variant="subtitle1">March 1</Typography>
+                <Typography variant="h6">University of Colorado</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -150,7 +168,10 @@ export default function Schedule() {
           </Accordion>
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">Openinfo.House: March 2</Typography>
+              <div>
+                <Typography variant="subtitle1">March 2</Typography>
+                <Typography variant="h6">Openinfo.House</Typography>
+              </div>
             </AccordionSummary>
             <AccordionDetails>
               <div>
