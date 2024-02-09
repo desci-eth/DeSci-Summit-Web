@@ -37,54 +37,42 @@ export default function Schedule() {
       {/* Schedule Information */}
       <div className="mt-8 px-4 py-6">
         <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
-        <table className="table-auto">
-          <tbody>
-            <tr>
-              <td><strong>Feb 19th - 3rd:</strong></td>
-              <td>DeSci HackerHouse</td>
-            </tr>
-            <tr>
-              <td><strong>Feb 26 - 29th:</strong></td>
-              <td>SciOS</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <ul className="list-disc ml-8">
-                  <li>9am-5pm every day</li>
-                  <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
-                  <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
-                  <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
-                  <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
-                  <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
-                  <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
-                  <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
-                  <li>Feb 29 4pm-7pm: Drinks on us</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Feb 26th:</strong></td>
-              <td>BUIDLHub</td>
-            </tr>
-            <tr>
-              <td><strong>Feb 27th:</strong></td>
-              <td>AuraNova</td>
-            </tr>
-            <tr>
-              <td><strong>Feb 28th:</strong></td>
-              <td>AuraNova Afterparty</td>
-            </tr>
-            <tr>
-              <td><strong>March 1:</strong></td>
-              <td>CU</td>
-            </tr>
-            <tr>
-              <td><strong>March 2:</strong></td>
-              <td>Openinfo.House</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="overflow-x-auto">
+          <table className="table-auto border-collapse border border-gray-300 rounded-lg">
+            <thead>
+              <tr className="bg-gray-200">
+                <th className="border border-gray-300 py-2 px-4">Date</th>
+                <th className="border border-gray-300 py-2 px-4">Event</th>
+                <th className="border border-gray-300 py-2 px-4">Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-300 py-2 px-4"><strong>Feb 19th - 3rd:</strong></td>
+                <td className="border border-gray-300 py-2 px-4">DeSci HackerHouse</td>
+                <td className="border border-gray-300 py-2 px-4">-</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 py-2 px-4"><strong>Feb 26 - 29th:</strong></td>
+                <td className="border border-gray-300 py-2 px-4">SciOS</td>
+                <td className="border border-gray-300 py-2 px-4">
+                  <ul className="list-disc ml-4">
+                    <li>9am-5pm every day</li>
+                    <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
+                    <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
+                    <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
+                    <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
+                    <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
+                    <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
+                    <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
+                    <li>Feb 29 4pm-7pm: Drinks on us</li>
+                  </ul>
+                </td>
+              </tr>
+              {/* Add more rows for other events */}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <Brought/>
