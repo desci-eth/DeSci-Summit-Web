@@ -106,16 +106,57 @@ export default function Schedule() {
             </AccordionDetails>
           </Accordion>
            <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">BUIDLHub: Feb 26</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>BUIDLHub</p>
-                <p>Time: 3-5pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
+  <AccordionSummary>
+    <Typography variant="h6">BUIDLHub: Feb 26</Typography>
+  </AccordionSummary>
+  <AccordionDetails>
+    <div>
+      <p>BUIDLHub</p>
+      <p>Time: 3-5pm</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3:00</td>
+            <td>Opening</td>
+            <td>Jelani</td>
+          </tr>
+          <tr>
+            <td>3:15</td>
+            <td>Funding & Incentives</td>
+            <td>Raymond Cheng</td>
+          </tr>
+          <tr>
+            <td>3:40</td>
+            <td>Ownership & Communities</td>
+            <td>Lisa Wocken</td>
+          </tr>
+          <tr>
+            <td>4:05</td>
+            <td>Data Management & Compute</td>
+            <td>Levi Rybalov</td>
+          </tr>
+          <tr>
+            <td>4:30</td>
+            <td>Publishing & Access</td>
+            <td>Chris Hill</td>
+          </tr>
+          <tr>
+            <td>4:55</td>
+            <td>Closing</td>
+            <td>Shady</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionDetails>
+</Accordion>
           <Accordion>
             <AccordionSummary>
               <Typography variant="h6">AuraNova: Feb 27</Typography>
