@@ -46,7 +46,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">Feb 19th - 3rd</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>DeSci HackerHouse</p>
+              <div>
+                <p>DeSci HackerHouse</p>
+                <p>Time: TBA</p>
+              </div>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -56,8 +59,8 @@ export default function Schedule() {
             <AccordionDetails>
               <div>
                 <p>SciOS</p>
+                <p>Time: 9am-5pm every day</p>
                 <ul>
-                  <li>9am-5pm every day</li>
                   <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
                   <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
                   <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
@@ -75,7 +78,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">Feb 26th</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>BUIDLHub</p>
+              <div>
+                <p>BUIDLHub</p>
+                <p>Time: 3-5pm</p>
+              </div>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -83,7 +89,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">Feb 27th</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>AuraNova</p>
+              <div>
+                <p>AuraNova</p>
+                <p>Time: 2pm-8pm</p>
+              </div>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -91,7 +100,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">Feb 28th</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>AuraNova Afterparty</p>
+              <div>
+                <p>AuraNova Afterparty</p>
+                <p>Time: 6pm-9pm</p>
+              </div>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -99,7 +111,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">March 1st</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>CU</p>
+              <div>
+                <p>CU</p>
+                <p>Time: 9am-5pm</p>
+              </div>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -107,7 +122,10 @@ export default function Schedule() {
               <h3 className="text-lg font-semibold">March 2nd</h3>
             </AccordionSummary>
             <AccordionDetails>
-              <p>Openinfo.House</p>
+              <div>
+                <p>Openinfo.House</p>
+                <p>Time: 5:30-6pm</p>
+              </div>
             </AccordionDetails>
           </Accordion>
         </div>
