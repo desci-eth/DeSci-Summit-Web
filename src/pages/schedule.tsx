@@ -18,7 +18,7 @@ import Tabs from '@mui/material/Tabs';
 export default function Schedule() {
   const [tabIndex, setTabIndex] = React.useState(0);
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setTabIndex(newValue);
   };
 
@@ -105,8 +105,14 @@ export default function Schedule() {
   );
 }
 
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
+interface TabPanelProps {
+  children?: React.ReactNode;
+  index: number;
+  value: number;
+}
+
+function TabPanel(props: TabPanelProps) {
+  const { children, value, index } = props;
 
   return (
     <div
@@ -114,7 +120,6 @@ function TabPanel(props) {
       hidden={value !== index}
       id={`tabpanel-${index}`}
       aria-labelledby={`tab-${index}`}
-      {...other}
     >
       {value === index && (
         <Typography component="div" sx={{ p: 3 }}>
