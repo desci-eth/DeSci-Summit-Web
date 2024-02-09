@@ -1,25 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from "../components/Navbar/navbar";
 import Sbanner from "../assets/png/sbanner.png";
+import Triangle from "../assets/svg/Triangle.svg";
+import Dot from "../assets/svg/dot.svg";
 import Bancor from "../assets/png/bancor.png";
 import Brought from "../components/schedule/brought";
 import Register from "../components/home/register";
 import Footer from "../components/Footer/footer";
 import Timeout from "../components/schedule/timeout";
 
-const Schedule: React.FC = () => {
-  // Define the state with TypeScript
-  const [isOpen, setIsOpen] = useState<number | null>(null);
-
-  // Define the function with TypeScript
-  const toggleAccordion = (index: number): void => {
-    if (isOpen === index) {
-      setIsOpen(null); // Close accordion if it's already open
-    } else {
-      setIsOpen(index); // Open the clicked accordion
-    }
-  };
-
+export default function Schedule() {
   return (
     <>
       <div className="relative">
@@ -44,30 +34,49 @@ const Schedule: React.FC = () => {
 
       <Timeout/>
 
-       {/* Enhanced Schedule Information */}
-      <div className="mt-8 px-4 py-6 bg-[#f5f5f5]">
-        <h2 className="text-2xl font-bold mb-4 text-center text-[#54FF7A]">Event Schedule</h2>
-        <div className="space-y-6">
-          {/* Schedule content goes here */}
-          {/* Example with Accordion */}
-          <div className={`bg-white rounded-lg shadow ${isOpen === 1 ? 'mb-4' : 'mb-0'}`}>
-            <div className="p-6 cursor-pointer" onClick={() => toggleAccordion(1)}>
-              <h3 className="font-semibold text-lg text-[#152EA0] flex justify-between items-center">
-                Feb 26 - 29th: SciOS
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{transform: isOpen === 1 ? 'rotate(180deg)' : 'rotate(0deg)'}}>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-                </svg>
-              </h3>
-            </div>
-            {isOpen === 1 && (
-              <div className="p-6 pt-0 space-y-2">
-                <ul className="list-disc ml-8">
-                  {/* Detailed events here */}
-                </ul>
-              </div>
-            )}
-          </div>
-          {/* Additional days/events */}
+      {/* Schedule Information */}
+      <div className="mt-8 px-4 py-6">
+        <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
+        <div className="space-y-4">
+          <p><strong>Feb 19th - 3rd:</strong> DeSci HackerHouse</p>
+          <p><strong>Feb 26 - 29th: SciOS</strong>
+            <ul className="list-disc ml-8">
+              <li>9am-5pm every day</li>
+              <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
+              <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
+              <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
+              <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
+              <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
+              <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
+              <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
+              <li>Feb 29 4pm-7pm: Drinks on us</li>
+            </ul>
+          </p>
+          <p><strong>Feb 26th: BUIDLHub</strong>
+            <ul className="list-disc ml-8">
+              <li>3-5pm</li>
+            </ul>
+          </p>
+          <p><strong>Feb 27th: AuraNova</strong>
+            <ul className="list-disc ml-8">
+              <li>2pm-8pm</li>
+            </ul>
+          </p>
+          <p><strong>Feb 28th: AuraNova Afterparty</strong>
+            <ul className="list-disc ml-8">
+              <li>6pm-9pm</li>
+            </ul>
+          </p>
+          <p><strong>March 1: CU</strong>
+            <ul className="list-disc ml-8">
+              <li>9am-5pm</li>
+            </ul>
+          </p>
+          <p><strong>March 2: Openinfo.House</strong>
+            <ul className="list-disc ml-8">
+              <li>5:30-6pm</li>
+            </ul>
+          </p>
         </div>
       </div>
 
@@ -75,9 +84,5 @@ const Schedule: React.FC = () => {
       <Register/>
       <Footer/>
     </>
-  );
-}
-
-export default Schedule;
   );
 }
