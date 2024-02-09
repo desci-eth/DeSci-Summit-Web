@@ -180,17 +180,55 @@ export default function Schedule() {
               </div>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">University of Colorado: March 1</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>CU</p>
-                <p>Time: 9am-5pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
+         <Accordion>
+  <AccordionSummary>
+    <Typography variant="h6">University of Colorado: March 1</Typography>
+  </AccordionSummary>
+  <AccordionDetails>
+    <div>
+      <p>CU</p>
+      <p>Time: 8:30am - 5:00pm</p>
+      <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+        <thead>
+          <tr style={{ backgroundColor: '#f2f2f2' }}>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Time</th>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Event</th>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>8:30</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Doors Open -- Coffee</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:10</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Take Seats - Welcome</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:15</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erin Magennis</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:40</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Levi Rybalov</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:05</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Richard Blythman</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          {/* Add more rows for each event */}
+        </tbody>
+      </table>
+    </div>
+  </AccordionDetails>
+</Accordion>
+
           <Accordion>
             <AccordionSummary>
               <Typography variant="h6">Openinfo.House: March 2</Typography>
