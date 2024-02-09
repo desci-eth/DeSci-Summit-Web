@@ -11,6 +11,7 @@ import Timeout from "../components/schedule/timeout";
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
 
 export default function Schedule() {
   return (
@@ -43,32 +44,16 @@ export default function Schedule() {
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 19th - 3rd</h3>
+              <Typography variant="h6">Feb 26 - 29th: SciOS</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
-                <p>DeSci HackerHouse</p>
-                <p>Time: TBA</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <h3 className="text-lg font-semibold">Feb 26 - 29th</h3>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>SciOS</p>
-                <p>Time: 9am-5pm every day</p>
+                <Typography variant="body1">Time: 9am-5pm every day</Typography>
                 <ul>
-                  <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
-                  <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
-                  <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
-                  <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
-                  <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
-                  <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
-                  <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
-                  <li>Feb 29 4pm-7pm: Drinks on us</li>
+                  <li><strong>Feb 26:</strong> 9am-4pm: Applications, Outputs, and Community Showcases</li>
+                  <li><strong>Feb 27:</strong> 9am-12pm: DID and Permissions Workshops, 1pm-4pm: Compute over Data Workshops</li>
+                  <li><strong>Feb 28:</strong> 9am-12pm: Funding and Incentive Design Workshops, 1pm - 4pm: Open State Data Networks Workshops</li>
+                  <li><strong>Feb 29:</strong> 9am-12pm: FAIR data and Semantic Publishing Workshops, 1pm-4pm: AI in Open Science Workshops, 4pm-7pm: Drinks on us</li>
                 </ul>
               </div>
             </AccordionDetails>
