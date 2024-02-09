@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css'; // Import default styles
 import Navbar from "../components/Navbar/navbar";
 import Sbanner from "../assets/png/sbanner.png";
 import Triangle from "../assets/svg/Triangle.svg";
@@ -9,7 +11,36 @@ import Register from "../components/home/register";
 import Footer from "../components/Footer/footer";
 import Timeout from "../components/schedule/timeout";
 
+// Mock event data
+const events = {
+  '2024-02-26': [{ name: 'SciOS', time: '9am-5pm' }],
+  '2024-02-27': [{ name: 'DID and Permissions Workshops', time: '9am-12pm' }, { name: 'Compute over Data Workshops', time: '1pm-4pm' }],
+  // Add more events here
+};
+
+const EventDetails = ({ selectedDate }) => {
+  const dateStr = selectedDate.toISOString().split('T')[0];
+  const dayEvents = events[dateStr] || [];
+
+  return (
+    <div>
+      {dayEvents.length > 0 ? (
+        dayEvents.map((event, index) => (
+          <div key={index} className="event-detail">
+            <h3>{event.name}</h3>
+            <p>{event.time}</p>
+          </div>
+        ))
+      ) : (
+        <p>No events scheduled for this day.</p>
+      )}
+    </div>
+  );
+};
+
 export default function Schedule() {
+  const [value, onChange] = useState(new Date());
+
   return (
     <>
       <div className="relative">
@@ -34,50 +65,10 @@ export default function Schedule() {
 
       <Timeout/>
 
-      {/* Schedule Information */}
+      {/* Calendar and Schedule Information */}
       <div className="mt-8 px-4 py-6">
-        <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
-        <div className="space-y-4">
-          <p><strong>Feb 19th - 3rd:</strong> DeSci HackerHouse</p>
-          <p><strong>Feb 26 - 29th: SciOS</strong>
-            <ul className="list-disc ml-8">
-              <li>9am-5pm every day</li>
-              <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
-              <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
-              <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
-              <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
-              <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
-              <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
-              <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
-              <li>Feb 29 4pm-7pm: Drinks on us</li>
-            </ul>
-          </p>
-          <p><strong>Feb 26th: BUIDLHub</strong>
-            <ul className="list-disc ml-8">
-              <li>3-5pm</li>
-            </ul>
-          </p>
-          <p><strong>Feb 27th: AuraNova</strong>
-            <ul className="list-disc ml-8">
-              <li>2pm-8pm</li>
-            </ul>
-          </p>
-          <p><strong>Feb 28th: AuraNova Afterparty</strong>
-            <ul className="list-disc ml-8">
-              <li>6pm-9pm</li>
-            </ul>
-          </p>
-          <p><strong>March 1: CU</strong>
-            <ul className="list-disc ml-8">
-              <li>9am-5pm</li>
-            </ul>
-          </p>
-          <p><strong>March 2: Openinfo.House</strong>
-            <ul className="list-disc ml-8">
-              <li>5:30-6pm</li>
-            </ul>
-          </p>
-        </div>
+        <Calendar onChange={onChange} value={value} />
+        <EventDetails selectedDate={value} />
       </div>
 
       <Brought/>
