@@ -105,7 +105,7 @@ export default function Schedule() {
               </div>
             </AccordionDetails>
           </Accordion>
-           <Accordion>
+<Accordion>
   <AccordionSummary>
     <Typography variant="h6">BUIDLHub: Feb 26</Typography>
   </AccordionSummary>
@@ -113,50 +113,51 @@ export default function Schedule() {
     <div>
       <p>BUIDLHub</p>
       <p>Time: 3-5pm</p>
-      <table>
+      <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
-          <tr>
-            <th>Time</th>
-            <th>Event</th>
-            <th>Speaker</th>
+          <tr style={{ backgroundColor: '#f2f2f2' }}>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Time</th>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Event</th>
+            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Speaker</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>3:00</td>
-            <td>Opening</td>
-            <td>Jelani</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:00</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Opening</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jelani</td>
           </tr>
           <tr>
-            <td>3:15</td>
-            <td>Funding & Incentives</td>
-            <td>Raymond Cheng</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:15</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Funding & Incentives</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Raymond Cheng</td>
           </tr>
           <tr>
-            <td>3:40</td>
-            <td>Ownership & Communities</td>
-            <td>Lisa Wocken</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:40</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Ownership & Communities</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Lisa Wocken</td>
           </tr>
           <tr>
-            <td>4:05</td>
-            <td>Data Management & Compute</td>
-            <td>Levi Rybalov</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>4:05</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Data Management & Compute</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Levi Rybalov</td>
           </tr>
           <tr>
-            <td>4:30</td>
-            <td>Publishing & Access</td>
-            <td>Chris Hill</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>4:30</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Publishing & Access</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Chris Hill</td>
           </tr>
           <tr>
-            <td>4:55</td>
-            <td>Closing</td>
-            <td>Shady</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>4:55</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Closing</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Shady</td>
           </tr>
         </tbody>
       </table>
     </div>
   </AccordionDetails>
 </Accordion>
+
           <Accordion>
             <AccordionSummary>
               <Typography variant="h6">AuraNova: Feb 27</Typography>
