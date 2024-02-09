@@ -52,7 +52,18 @@ export default function Schedule() {
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">Feb 26 - 29th: SciOS</Typography>
+              <Typography variant="h6">DeSci World Hackerhouse: Feb 19 - March 3</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>DeSci HackerHouse</p>
+                <p>Time: TBA</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">SciOS: Feb 26 - 29th</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -94,7 +105,61 @@ export default function Schedule() {
               </div>
             </AccordionDetails>
           </Accordion>
-          {/* Add more Accordion components for other days/events */}
+           <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">BUIDLHub: Feb 26</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>BUIDLHub</p>
+                <p>Time: 3-5pm</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">AuraNova: Feb 27</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>AuraNova</p>
+                <p>Time: 2pm-8pm</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">AuraNova Afterparty: Feb 28</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>AuraNova Afterparty</p>
+                <p>Time: 6pm-9pm</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">University of Colorado: March 1</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>CU</p>
+                <p>Time: 9am-5pm</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">Openinfo.House: March 2</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>Openinfo.House</p>
+                <p>Time: 5:30-6pm</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
         </div>
       </div>
 
