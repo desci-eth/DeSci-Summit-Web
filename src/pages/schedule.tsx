@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from 'react';
+import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; // Import default styles
 import Navbar from "../components/Navbar/navbar";
@@ -54,9 +54,9 @@ const EventDetails = ({ selectedDate }: EventDetailsProps) => {
 };
 
 export default function Schedule() {
-  const [value, setValue] = useState(new Date());
+  const [value, setValue] = useState<Date>(new Date());
 
-  // Correct onChange type for Calendar
+  // Correct onChange type for Calendar, using a broad type to cover the event argument
   const onChange = (nextValue: Date | Date[]) => {
     if (Array.isArray(nextValue)) {
       setValue(nextValue[0]);
@@ -67,12 +67,36 @@ export default function Schedule() {
 
   return (
     <>
-      {/* Existing JSX */}
+      <div className="relative">
+        <Navbar />
+        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] pb-5">
+          <div className="mt-5 md:mt-14">
+            <p className="font-syne font-[400] text-[70px] md:text-[80px] lg:text-[90px] xl:text-[96px] text-[#54FF7A]">Schedule</p>
+            <p className="flex gap-3 text font-[400] text-white text-[20px] md:text-[30px] lg:text-[32px]">DeSciSummit2024 <img src={Triangle} alt="" /><img src={Dot} alt="" /></p>
+            <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-4">
+              February 25th - March 1st, 2024
+            </p>
+            <div className="md:flex gap-5 mt-5">
+              {/* Apply to Speak and Sponsorships Links */}
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <img src={Sbanner} alt="" />
+          </div>
+        </div>
+        <img src={Bancor} alt="" className="absolute top-0 right-0 block md:hidden" />
+      </div>
+
+      <Timeout/>
+
       <div className="mt-8 px-4 py-6">
         <Calendar onChange={onChange} value={value} />
         <EventDetails selectedDate={value} />
       </div>
-      {/* Existing JSX continued */}
+
+      <Brought/>
+      <Register/>
+      <Footer/>
     </>
   );
 }
