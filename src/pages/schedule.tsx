@@ -70,7 +70,46 @@ export default function Schedule() {
               </div>
             </AccordionDetails>
           </Accordion>
-          {/* Add more Accordion components for other events */}
+          <Accordion>
+            <AccordionSummary>
+              <h3 className="text-lg font-semibold">Feb 26th</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <p>BUIDLHub</p>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <h3 className="text-lg font-semibold">Feb 27th</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <p>AuraNova</p>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <h3 className="text-lg font-semibold">Feb 28th</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <p>AuraNova Afterparty</p>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <h3 className="text-lg font-semibold">March 1st</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <p>CU</p>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <h3 className="text-lg font-semibold">March 2nd</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <p>Openinfo.House</p>
+            </AccordionDetails>
+          </Accordion>
         </div>
       </div>
 
