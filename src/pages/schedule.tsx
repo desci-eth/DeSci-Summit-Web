@@ -209,19 +209,95 @@ export default function Schedule() {
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:15</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erin Magennis</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erin Magennis</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>9:40</td>
-            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Levi Rybalov</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Levi Rybalov</td>
           </tr>
           <tr>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:05</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>Richard Blythman</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:40</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Ronen Tamari</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:05</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Michael Zargham</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:30</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Matthew Akamatsu</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>11:55</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Franck Marchis</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>12:30</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Lunch</td>
             <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
           </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>1:00</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jason Cross</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>1:25</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Dr. Gennaro D'Urso
+Caspar Barnes
+Ligia Kornowska</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>2:10</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Fireside Chat</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jenna
+AthenaDAO Researcher</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>2:35</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Jonathan Starr</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>2:55</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Coffee Break</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:20</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Erik Schultes</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>3:55</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Philipp Koellinger</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>4:20</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Stefan Adolf
+Brian 
+Raymond Cheng
+Josh</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>10:05</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>Closing</td>
+            <td style={{ padding: '8px', border: '1px solid #ddd' }}>-</td>
+          </tr>        
           {/* Add more rows for each event */}
         </tbody>
       </table>
