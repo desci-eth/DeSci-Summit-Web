@@ -38,13 +38,24 @@ export default function Schedule() {
 
       <Timeout/>
 
-      {/* Schedule Information */}
+     {/* Schedule Information */}
       <div className="mt-8 px-4 py-6">
         <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">Feb 26 - 29th: SciOS</Typography>
+              <h3 className="text-lg font-semibold">Feb 19th - 3rd</h3>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <p>DeSci HackerHouse</p>
+                <p>Time: TBA</p>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary>
+              <Typography variant="h6">SciOS: Feb 26 - 29th</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
