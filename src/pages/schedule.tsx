@@ -12,8 +12,16 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
 
 export default function Schedule() {
+  const [tabIndex, setTabIndex] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setTabIndex(newValue);
+  };
+
   return (
     <>
       <div className="relative">
@@ -38,91 +46,55 @@ export default function Schedule() {
 
       <Timeout/>
 
-     {/* Schedule Information */}
+      {/* Schedule Information */}
       <div className="mt-8 px-4 py-6">
         <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
         <div className="overflow-x-auto">
           <Accordion>
             <AccordionSummary>
-              <Typography variant="h6">DeSci World Hackerhouse: Feb 19 - March 3</Typography>
+              <Typography variant="h6">Feb 26 - 29th: SciOS</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <div>
-                <p>DeSci HackerHouse</p>
-                <p>Time: TBA</p>
+                <Typography variant="body1">Time: 9am-5pm every day</Typography>
+                <Tabs value={tabIndex} onChange={handleChange} aria-label="SciOS workshops">
+                  <Tab label="Applications, Outputs, and Community Showcases" />
+                  <Tab label="DID and Permissions Workshops" />
+                  <Tab label="Compute over Data Workshops" />
+                  <Tab label="Funding and Incentive Design Workshops" />
+                  <Tab label="Open State Data Networks Workshops" />
+                  <Tab label="FAIR data and Semantic Publishing Workshops" />
+                  <Tab label="AI in Open Science Workshops" />
+                  <Tab label="Drinks on us" />
+                </Tabs>
+                <TabPanel value={tabIndex} index={0}>
+                  <p>Details for Applications, Outputs, and Community Showcases</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={1}>
+                  <p>Details for DID and Permissions Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={2}>
+                  <p>Details for Compute over Data Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={3}>
+                  <p>Details for Funding and Incentive Design Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={4}>
+                  <p>Details for Open State Data Networks Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={5}>
+                  <p>Details for FAIR data and Semantic Publishing Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={6}>
+                  <p>Details for AI in Open Science Workshops</p>
+                </TabPanel>
+                <TabPanel value={tabIndex} index={7}>
+                  <p>Details for Drinks on us</p>
+                </TabPanel>
               </div>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">SciOS: Feb 26 - 29th</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <ul>
-                  <li><strong>Feb 26:</strong> 9am-4pm: Applications, Outputs, and Community Showcases</li>
-                  <li><strong>Feb 27:</strong> 9am-12pm: DID and Permissions Workshops, 1pm-4pm: Compute over Data Workshops</li>
-                  <li><strong>Feb 28:</strong> 9am-12pm: Funding and Incentive Design Workshops, 1pm - 4pm: Open State Data Networks Workshops</li>
-                  <li><strong>Feb 29:</strong> 9am-12pm: FAIR data and Semantic Publishing Workshops, 1pm-4pm: AI in Open Science Workshops, 4pm-7pm: Drinks on us</li>
-                </ul>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">BUIDLHub: Feb 26</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>BUIDLHub</p>
-                <p>Time: 3-5pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">AuraNova: Feb 27</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>AuraNova</p>
-                <p>Time: 2pm-8pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">AuraNova Afterparty: Feb 28</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>AuraNova Afterparty</p>
-                <p>Time: 6pm-9pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">University of Colorado: March 1</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>CU</p>
-                <p>Time: 9am-5pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary>
-              <Typography variant="h6">Openinfo.House: March 2</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <p>Openinfo.House</p>
-                <p>Time: 5:30-6pm</p>
-              </div>
-            </AccordionDetails>
-          </Accordion>
+          {/* Add more Accordion components for other days/events */}
         </div>
       </div>
 
@@ -130,5 +102,25 @@ export default function Schedule() {
       <Register/>
       <Footer/>
     </>
+  );
+}
+
+function TabPanel(props) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`tabpanel-${index}`}
+      aria-labelledby={`tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Typography component="div" sx={{ p: 3 }}>
+          {children}
+        </Typography>
+      )}
+    </div>
   );
 }
