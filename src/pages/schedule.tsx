@@ -37,47 +37,54 @@ export default function Schedule() {
       {/* Schedule Information */}
       <div className="mt-8 px-4 py-6">
         <h2 className="text-2xl font-bold mb-4">Event Schedule</h2>
-        <div className="space-y-4">
-          <p><strong>Feb 19th - 3rd:</strong> DeSci HackerHouse</p>
-          <p><strong>Feb 26 - 29th: SciOS</strong>
-            <ul className="list-disc ml-8">
-              <li>9am-5pm every day</li>
-              <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
-              <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
-              <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
-              <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
-              <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
-              <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
-              <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
-              <li>Feb 29 4pm-7pm: Drinks on us</li>
-            </ul>
-          </p>
-          <p><strong>Feb 26th: BUIDLHub</strong>
-            <ul className="list-disc ml-8">
-              <li>3-5pm</li>
-            </ul>
-          </p>
-          <p><strong>Feb 27th: AuraNova</strong>
-            <ul className="list-disc ml-8">
-              <li>2pm-8pm</li>
-            </ul>
-          </p>
-          <p><strong>Feb 28th: AuraNova Afterparty</strong>
-            <ul className="list-disc ml-8">
-              <li>6pm-9pm</li>
-            </ul>
-          </p>
-          <p><strong>March 1: CU</strong>
-            <ul className="list-disc ml-8">
-              <li>9am-5pm</li>
-            </ul>
-          </p>
-          <p><strong>March 2: Openinfo.House</strong>
-            <ul className="list-disc ml-8">
-              <li>5:30-6pm</li>
-            </ul>
-          </p>
-        </div>
+        <table className="table-auto">
+          <tbody>
+            <tr>
+              <td><strong>Feb 19th - 3rd:</strong></td>
+              <td>DeSci HackerHouse</td>
+            </tr>
+            <tr>
+              <td><strong>Feb 26 - 29th:</strong></td>
+              <td>SciOS</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul className="list-disc ml-8">
+                  <li>9am-5pm every day</li>
+                  <li>Feb 26 9am-4pm: Applications, Outputs, and Community Showcases</li>
+                  <li>Feb 27 9am-12pm: DID and Permissions Workshops</li>
+                  <li>Feb 27 1pm-4pm: Compute over Data Workshops</li>
+                  <li>Feb 28 9am-12pm: Funding and Incentive Design Workshops</li>
+                  <li>Feb 28 1pm - 4pm: Open State Data Networks Workshops</li>
+                  <li>Feb 29 9am-12pm: FAIR data and Semantic Publishing Workshops</li>
+                  <li>Feb 29 1pm-4pm: AI in Open Science Workshops</li>
+                  <li>Feb 29 4pm-7pm: Drinks on us</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Feb 26th:</strong></td>
+              <td>BUIDLHub</td>
+            </tr>
+            <tr>
+              <td><strong>Feb 27th:</strong></td>
+              <td>AuraNova</td>
+            </tr>
+            <tr>
+              <td><strong>Feb 28th:</strong></td>
+              <td>AuraNova Afterparty</td>
+            </tr>
+            <tr>
+              <td><strong>March 1:</strong></td>
+              <td>CU</td>
+            </tr>
+            <tr>
+              <td><strong>March 2:</strong></td>
+              <td>Openinfo.House</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <Brought/>
