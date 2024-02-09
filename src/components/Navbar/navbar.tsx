@@ -111,7 +111,7 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState
             [400] text-white text-[12px] xl:text-[18px] 2xl:text-
             [20px] border-[1px] border-white transition duration-500
             ease-in-out transform     rounded-[4px] py-3 px-4
-            uppercase"> Register for SciOS
+            uppercase"> SciOS Workshops
               
             </button> </Link>
 
