@@ -146,7 +146,9 @@ export default function Navbar() {
                 d="m19.5 8.25-7.5 7.5-7.5-7.5"
               />
             </svg>
-          </button>
+          </button> */}
+
+          <Link to="/event" className="self-center">
           <button className="self-center flex gap-1 font-syne font-[400] text-[#EFEBFF] text-[12px] xl:text-[18px] 2xl:text-[20px] uppercase">
             PAST EVENTS
             <svg
@@ -163,7 +165,8 @@ export default function Navbar() {
                 d="m19.5 8.25-7.5 7.5-7.5-7.5"
               />
             </svg>
-          </button> */}
+          </button>
+          </Link>
       
       <Link
             to="https://airtable.com/app0wgQCdFBk4sZ4j/pagd4da0BL96BQfRM/form"

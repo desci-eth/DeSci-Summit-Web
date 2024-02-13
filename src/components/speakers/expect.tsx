@@ -3,7 +3,7 @@ import Eframe from "../../assets/png/eframe.png"
 export default function Expect() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-12 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto border-y-[1px] border-[#6AD585] py-10 lg:py-0 mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-12 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto border-b-[1px] border-[#6AD585] py-10 lg:py-0 ">
         <div className="lg:col-span-8 self-center ">
           
           <p className="font-syne font-[400]  text-[30px] md:text-[48px] text-[#54FF7A]">
