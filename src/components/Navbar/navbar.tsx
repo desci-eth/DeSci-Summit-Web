@@ -15,7 +15,6 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState
   className="self-center font-syne font-[400] text-[#EFEBFF] text-
   [12px] xl:text-[18px] 2xl:text-[20px] uppercase"> Home </button>
   </Link>
-
           <div className="self-center"> <button onClick=
           {toggleDropdown} className="self-center flex gap-1 font-syne
           font-[400] text-[#EFEBFF] text-[12px] xl:text-
@@ -103,7 +102,28 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState
             > <path strokeLinecap="round" strokeLinejoin="round"
               d="m19.5 8.25-7.5 7.5-7.5-7.5"
               /> </svg> </button> */}
-      
+
+                {/*TODO TODO TODO uncomment when past events page is complete with content*/}
+
+{/*<Link to="/event" className="self-center">
+          <button className="self-center flex gap-1 font-syne font-[400] text-[#EFEBFF] text-[12px] xl:text-[18px] 2xl:text-[20px] uppercase">
+            PAST EVENTS
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 xl:w-5 h-4 xl:h-5 self-center"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </button>
+          </Link>  */}    
       <Link
       to="https://scios.desci.community"
       target="_blank" className="self-center"
@@ -123,8 +143,6 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState
             [20px] border-[1px] border-white transition duration-500
             ease-in-out transform     rounded-[4px] py-3 px-4
             uppercase"> hacker house
-              
-            </button> </Link>
 
           <Link
           to="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"

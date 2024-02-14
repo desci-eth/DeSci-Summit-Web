@@ -1,76 +1,43 @@
-import Navbar from "../components/Navbar/navbar";
 import Sbanner from "../assets/png/sbanner.png";
+import Bancor from "../assets/png/bancor.png";
+import Navbar from "../components/Navbar/navbar";
 import Triangle from "../assets/svg/Triangle.svg";
 import Dot from "../assets/svg/dot.svg";
-import Bancor from "../assets/png/bancor.png";
-import Brought from "../components/schedule/brought";
-import Register from "../components/home/register";
-import Footer from "../components/Footer/footer";
-import Countdown from "../components/schedule/countdown";
-import Expect from "../components/speakers/expect";
-import Query from "../components/home/query";
 import Schedule from "../components/schedule/schedule";
-import Timetable from "../components/schedule/timetable";
-import Card from "../components/schedule/card";
+import Query from "../components/home/query";
+import Expect from "../components/speakers/expect";
 import Down from "../assets/svg/adown.svg";
-import Time from "../assets/svg/TIME REMAINING.svg";
 import { Link } from "react-router-dom";
 
-export default function Schedules() {
+import Timetable from "../components/schedule/timetable";
+import Card from "../components/schedule/card";
+import Register from "../components/home/register";
+import Footer from "../components/Footer/footer";
+
+export default function ScheduleDesktop() {
   return (
     <>
       <div className="relative">
         <Navbar />
-        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] pb-5">
+        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  pb-5">
           <div className="mt-5 md:mt-14">
             <p className="font-syne font-[400] text-[70px] md:text-[80px] lg:text-[90px] xl:text-[96px] text-[#54FF7A]">
               Schedule
             </p>
-            <p className="flex gap-3  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[32px] ">
+            <p className="flex gap-3 mt-3 md:mt-0  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[32px] ">
               DeSciSummit2024
               <img src={Triangle} alt="" />
               <img src={Dot} alt="" />
             </p>
-            <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-4">
-              February 25 - March 2nd, 2024
+            <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-16 leading-[50px]">
+              February 25 - Mar 1st,
+              <br /> 2024
             </p>
 
-            <div className="md:flex gap-5 mt-5">
-              <button className="text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6 uppercase">
-                apply to speak
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-4  h-4  self-center"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </button>
-
-              <button className="mt-5 md:mt-0 text flex gap-2  font-ubuntu font-[400] text-[#54FF7A] text-[17px] border-[1px] border-[#54FF7A] transition duration-500 ease-in-out transform  hover:bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6   uppercase">
-                sponsorships
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-4  h-4  self-center"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </button>
+            <div className="block md:hidden border-y-[1px] border-[#4FA366] py-5 mt-8 ">
+              <p className="text  font-syne font-[400] text-[42px] text-white  leading-[60px] ">
+                February 25 - <br /> Mar 1st, 2024
+              </p>
             </div>
           </div>
 
@@ -83,9 +50,6 @@ export default function Schedules() {
           alt=""
           className="absolute top-0 right-0 block md:hidden"
         />
-      </div>
-      <div className="pt-10 pb-20 border-b-[1px] border-[#4FA366]">
-        <Countdown />
       </div>
       <Schedule />
       <Query />
@@ -172,9 +136,8 @@ export default function Schedules() {
       </div>
 
       <Card />
-      <Brought />
-      <Register />
-      <Footer />
+      <Register/>
+      <Footer/>
     </>
   );
 }

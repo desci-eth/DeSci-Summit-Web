@@ -14,6 +14,41 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 
+.events .slick-slide {
+  transition: transform 0.5s ease !important; /* Smooth transition for zoom effect */
+}
+
+.events .slick-slide img {
+  display: block !important;
+  width: 100% !important;
+  border-radius: 15px !important; /* Optional: if you want rounded corners */
+  transform: scale(0.9) !important; /* Scale down inactive slides */
+}
+
+.events .slick-active img {
+  transform: scale(1) !important; /* Scale up active slide */
+}
+
+/* Customizing the arrows and dots to your preference */
+.events .slick-prev, .slick-next {
+  z-index: 1 !important;
+  /* Other styles for arrows */
+}
+ 
+.events .slick-dots li button:before
+{
+  font-size: 10px !important;
+}
+
+.events .slick-dots li.slick-active button:before
+{
+ color: #54FF7A !important;
+}
+
+.events .slick-dots {
+  bottom: -40px !important;
+}
+
 
 .text {
   font-family: "Ubuntu Mono", monospace;
