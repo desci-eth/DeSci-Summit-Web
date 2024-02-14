@@ -170,7 +170,7 @@ export default function Schedule() {
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Jelani Clarke <span className="text-white">DeSci World</span>
+                  Jelani Clarke, Ph.D. <span className="text-white">DeSci World</span>
                 </p>
               </div>
             </div>
