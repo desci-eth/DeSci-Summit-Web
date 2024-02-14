@@ -60,7 +60,7 @@ export default function Speakers() {
       <Count />
       <Speaker />
       <Expect />
-      <Sponers />
+      <Sponsors />
       <ImageSlider />
       <ImageTwoSlider />
       <div className="lg:pt-10  lg:border-b-[1px] border-[#4FA366] w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto"></div>

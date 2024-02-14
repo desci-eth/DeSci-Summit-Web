@@ -143,7 +143,7 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState
             [20px] border-[1px] border-white transition duration-500
             ease-in-out transform     rounded-[4px] py-3 px-4
             uppercase"> hacker house
-
+            </button> </Link>
           <Link
           to="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
           target="_blank" className="self-center"
