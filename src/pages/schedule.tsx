@@ -29,7 +29,6 @@ export default function Schedules() {
             <p className="flex gap-3  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[32px] ">
               DeSciSummit2024
               <img src={Triangle} alt="" />
-              <img src={Dot} alt="" />
             </p>
             <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-4">
               February 25 - March 1st, 2024
@@ -98,7 +97,7 @@ export default function Schedules() {
             <img src={Down} alt="" className="cursor-pointer " />
           </div>
         </div>
-        <div className="col-span-8 lg:pl-10 lg:py-10 ">
+       {/* <div className="col-span-8 lg:pl-10 lg:py-10 ">
           <p className="font-syne font-[400] text-[#54FF7A] text-[35px] md:text-[48px] pt-5 lg:pt-0">
             How can I join?
           </p>
@@ -129,9 +128,9 @@ export default function Schedules() {
               </svg>
             </button>
           </Link>
-        </div>
+        </div>*/}
       </div>
-      <Timetable />
+      {/*<Timetable />*/}
 
       <div className="hidden md:grid grid-cols-1 lg:grid-cols-12 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto border-b-[1px] border-[#6AD585] py-10 lg:py-0">
         <div className="lg:col-span-4  lg:pt-6">
