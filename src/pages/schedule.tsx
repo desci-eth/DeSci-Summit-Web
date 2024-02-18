@@ -15,8 +15,14 @@ import Card from "../components/schedule/card";
 import Down from "../assets/svg/adown.svg";
 import Time from "../assets/svg/TIME REMAINING.svg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Schedules() {
+  const [buttonText, setButtonText] = useState("apply to speak");
+
+  const handleMouseEnter = () => setButtonText("Applications closed");
+
+  const handleMouseLeave = () => setButtonText("apply to speak");
   return (
     <>
       <div className="relative">
@@ -35,8 +41,13 @@ export default function Schedules() {
             </p>
 
             <div className="md:flex gap-5 mt-5">
-              <button className="text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6 uppercase">
-                apply to speak
+              <button
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                className="text self-center flex gap-2 font-ubuntu font-[400] text-[#152EA0] text-[17px]  transition duration-500 ease-in-out transform  bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6 uppercase"
+              >
+                {buttonText}
+
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -53,6 +64,7 @@ export default function Schedules() {
                 </svg>
               </button>
 
+<Link to="https://airtable.com/apptAi2tFe7I5lDvn/shryNlfnencagSmCO" target="_blank">
               <button className="mt-5 md:mt-0 text flex gap-2  font-ubuntu font-[400] text-[#54FF7A] text-[17px] border-[1px] border-[#54FF7A] transition duration-500 ease-in-out transform  hover:bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6   uppercase">
                 sponsorships
                 <svg
@@ -70,6 +82,7 @@ export default function Schedules() {
                   />
                 </svg>
               </button>
+              </Link>
             </div>
           </div>
 
@@ -97,7 +110,7 @@ export default function Schedules() {
             <img src={Down} alt="" className="cursor-pointer " />
           </div>
         </div>
-       {/* <div className="col-span-8 lg:pl-10 lg:py-10 ">
+         <div className="col-span-8 lg:pl-10 lg:py-10 ">
           <p className="font-syne font-[400] text-[#54FF7A] text-[35px] md:text-[48px] pt-5 lg:pt-0">
             How can I join?
           </p>
@@ -128,7 +141,7 @@ export default function Schedules() {
               </svg>
             </button>
           </Link>
-        </div>*/}
+        </div>
       </div>
       {/*<Timetable />*/}
 
@@ -170,7 +183,7 @@ export default function Schedules() {
         </div>
       </div>
 
-      <Card />
+      {/* <Card /> */}
       <Brought />
       <Register />
       <Footer />

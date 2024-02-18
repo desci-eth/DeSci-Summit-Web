@@ -1,20 +1,17 @@
 import SpBanner from "../assets/png/speaker-banner.png";
 import Triangle from "../assets/svg/Triangle.svg";
-import Dot from "../assets/svg/dot.svg";
 import Footer from "../components/Footer/footer";
 import Navbar from "../components/Navbar/navbar";
 import ImageSlider from "../components/home/imageSlider";
 import ImageTwoSlider from "../components/home/imagesTwoSlider";
 import Query from "../components/home/query";
 import Register from "../components/home/register";
-import Time from "../assets/svg/TIME REMAINING.svg";
 import Expect from "../components/speakers/expect";
-import Speaker from "../components/speakers/speaker";
 import Sponsors from "../components/speakers/sponsors";
-import Count from "../components/speakers/count";
 import { useState } from "react";
+import SpeakerThree from "../components/speakers/speakerthree";
 
-export default function Speakers() {
+export default function Speakers2023() {
   const [buttonText, setButtonText] = useState("apply to speak");
 
   const handleMouseEnter = () => setButtonText("Applications closed");
@@ -29,7 +26,7 @@ export default function Speakers() {
             Speakers
           </p>
           <p className="flex gap-3  text font-[400] text-white text-[20px] md:text-[30px] lg:text-[24px] xl:text-[32px] ">
-            DeSciSummit2024
+            DeSciSummit2023
             <img src={Triangle} alt="" />
             {/*<img src={Dot} alt="" />*/}
           </p>
@@ -68,12 +65,8 @@ export default function Speakers() {
         </div>
       </div>
 
-      <p className="py-20 text-center font-syne font-[400] text-[26px] md:text-[75px] lg:text-[84px] xl:text-[90px] text-[#54FF7A] leading-[35px] md:leading-[90px]">
-    Applications Closed 
-          </p>
-      <Count />
-      
-      {/* <Speaker /> */}
+      <SpeakerThree />
+      <Query/>
       <Expect />
       <Sponsors />
       <ImageSlider />

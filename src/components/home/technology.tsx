@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Tech from "../../assets/png/tech.png";
 
 export default function Technology() {
@@ -31,6 +32,8 @@ export default function Technology() {
             driven through the adoption of decentralized web and artificial
             intelligence technology
           </p>
+         
+         <Link to="/schedule" className="self-center">
           <button className="mt-5 text self-center flex gap-2 font-ubuntu font-[400] text-[#54FF7A] text-[17px] border-[1px] border-[#54FF7A] transition duration-500 ease-in-out transform  hover:bg-[#54FF7A] hover:text-white   rounded-[4px] py-3 px-4 uppercase">
             See 2024 Schedule
             <svg
@@ -48,6 +51,7 @@ export default function Technology() {
               />
             </svg>
           </button>
+          </Link>
         </div>
         <div className="hidden lg:block lg:col-span-4 ">
           <img src={Tech} alt="" className="xl:w-[75%] mx-auto" />

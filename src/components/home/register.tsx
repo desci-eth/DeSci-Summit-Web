@@ -21,29 +21,28 @@ export default function Register() {
               className="self-center"
             >
               <a
-  id="btn"
-  href="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center justify-center gap-2 font-ubuntu font-[700] text-[#152EA0] text-[15px] md:text-[18px] transition duration-500 ease-in-out transform bg-[#54FF7A] hover:bg-[#54FF7A] hover:text-white rounded-[4px] py-4 px-4 md:px-8 w-[50%] md:w-auto uppercase mt-10 self-center"
->
-  REGISTER NOW
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-    className="w-4 h-4 self-center"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-    />
-  </svg>
-</a>
-
+                id="btn"
+                href="https://airtable.com/apptAi2tFe7I5lDvn/shrMx9j7mKJwnxd0J"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 font-ubuntu font-[700] text-[#152EA0] text-[15px] md:text-[18px] transition duration-500 ease-in-out transform bg-[#54FF7A] hover:bg-[#54FF7A] hover:text-white rounded-[4px] py-4 px-4 md:px-8 w-[50%] md:w-auto uppercase mt-10 self-center"
+              >
+                REGISTER NOW
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 h-4 self-center"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                  />
+                </svg>
+              </a>
             </Link>
           </div>
 

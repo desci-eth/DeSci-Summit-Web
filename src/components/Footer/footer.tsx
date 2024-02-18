@@ -15,31 +15,43 @@ export default function Footer() {
         </p>
         <div className="md:flex justify-between mt-5">
           <div className="flex justify-between md:justify-start gap-5 md:gap-10">
-            <Link to="https://github.com/desci-eth" target="_blank" className="self-center" >
+            <Link
+              to="https://github.com/desci-eth"
+              target="_blank"
+              className="self-center"
+            >
               <img src={Ficon} alt="" className="cursor-pointer" />
             </Link>
-            <Link to="https://t.me/+f7T6hpOQI8cwOWRh" target="_blank" className="self-center" >
+            <Link
+              to="https://t.me/+f7T6hpOQI8cwOWRh"
+              target="_blank"
+              className="self-center"
+            >
               <img src={Ficon2} alt="" className="cursor-pointer" />
             </Link>
-            <Link to="https://twitter.com/descieth" target="_blank" className="self-center" >
+            <Link
+              to="https://twitter.com/descieth"
+              target="_blank"
+              className="self-center"
+            >
               <img src={Ficon3} alt="" className="cursor-pointer" />
             </Link>
-              <img src={Ficon4} alt="" className="cursor-pointer" />
-              <img src={Ficon5} alt="" className="cursor-pointer" />
-              <img src={Ficon6} alt="" className="cursor-pointer" />
-          
-              <a href="mailto:hello@opscientia.com" className="self-center">
-            <p className="hidden lg:block self-center font-syne font-[400] text-[18px] text-white">
-              hello@opscientia.com
-            </p>
+            <img src={Ficon4} alt="" className="cursor-pointer" />
+            <img src={Ficon5} alt="" className="cursor-pointer" />
+            <img src={Ficon6} alt="" className="cursor-pointer" />
+
+            <a href="mailto:hello@opscientia.com" className="self-center">
+              <p className="hidden lg:block self-center font-syne font-[400] text-[18px] text-white">
+                hello@opscientia.com
+              </p>
             </a>
           </div>
 
           <div className="self-center border-t-[1px] md:border-t-[0px] border-[#4FA366] mt-5 md:mt-0">
-            <Link to="https://app.ens.domains/summit.desci.eth" >
-            <p className="font-syne font-[400] text-[18px] text-white mt-5 md:mt-0">
-              DESCI SUMMIT © 2024
-            </p>
+            <Link to="https://app.ens.domains/summit.desci.eth">
+              <p className="font-syne font-[400] text-[18px] text-white mt-5 md:mt-0">
+                DESCI SUMMIT © 2024
+              </p>
             </Link>
           </div>
         </div>
