@@ -31,7 +31,7 @@ export default function Schedules() {
               <img src={Triangle} alt="" />
             </p>
             <p className="hidden md:block font-syne font-[400] text-[35px] lg:text-[45px] xl:text-[56px] text-white mt-4">
-              February 25 - March 1st, 2024
+              February 26 - March 1st, 2024
             </p>
 
             <div className="md:flex gap-5 mt-5">
