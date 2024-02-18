@@ -81,7 +81,7 @@ export default function Schedule() {
           </p>
 
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
-            A day of showcasing DeSci applications, outputs, and community members. Join us for an open platform to talk directly about your DeSci project, how you use DeSci applications, or to have a fireside chat with your Desci peers. Discuss the implications of DeSci, your thoughts on and vision for the future of science, and how we can use Web3 to make a more efficient, productive, equitable, and democratic system of science!
+            Join us for an open platform that highlights the importance of the DeSci deep-tech stack by highlighting the tools, research, and community it enables. Demo your DeSci project, highlight a use of DeSci applications, host a fireside chat or panel with your DeSci peers, or take the stage by yourself to discuss the implications of DeSci, your thoughts on and vision for the future of science, and how we can use Web3 to make a more efficient, productive, equitable, and democratic system of science!
           </p>
                   <Link
       to="https://scios.desci.community"
@@ -376,15 +376,15 @@ export default function Schedule() {
  <div className="grid lg:grid-cols-12 gap-10 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  border-b-[1px] border-[#9D84FF] ">
         <div className="lg:col-span-8 py-5 md:py-10 lg:border-r-[1px] border-[#9D84FF] ">
           <p className="block lg:hidden text font-[400] text-[35px] text-[#54FF7A]">
-            9:00am - 12:00pm
+            9:30am - 11am
           </p>
 
           <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
-            DID and Permissions Workshops
+            Open Problems Sessions
           </p>
 
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
-            Join Ceramic, Orbis, and Holonym as we explore technical solutions for decentralized identity in decentralized science applications. Presenters may use the time to introduce a problem for scientific identity management and explore potential solutions. The focus should be on concrete technical solutions, not on marketing a project or coin.
+            Join us and share your thoughts on the problems facing the traditional system of science. This session will help define the limitations of the current firmware of science, and help guide the DeSci movement towards building a more effective stack on which research operates.
           </p>
 
            <Link
@@ -402,7 +402,7 @@ export default function Schedule() {
 
         <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 ">
           <p className="hidden lg:block text font-[400] text-[35px] text-[#54FF7A]">
-            9:00am - 12:00pm
+            9:30am - 11:am
           </p>
 
           <div className="bg-[#2c43a9] p-5 w-[100%] xl:w-[70%] flex gap-2 lg:mt-10 rounded-[4px]">
@@ -437,6 +437,70 @@ export default function Schedule() {
         </div>
       </div>
 
+
+      <div className="grid lg:grid-cols-12 gap-10 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  border-b-[1px] border-[#9D84FF] ">
+        <div className="lg:col-span-8 py-5 md:py-10 lg:border-r-[1px] border-[#9D84FF] ">
+          <p className="block lg:hidden text font-[400] text-[35px] text-[#54FF7A]">
+            11:00am - 12:00pm
+          </p>
+
+          <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
+            Science Primitives
+          </p>
+
+          <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
+            Join us to “set the table” for a week of desci topics grounded by posing the question “what is science” and exploring the hypthesis that science is a collection of decentralized protocols. We will explore some examples including peer-review, lab notebooks and citation mechanisms. Furthmoremore, we will examine how the implementations of these protocols has centralized. We conclude by motivating the development of more decentralized implementations of these protocols.
+          </p>
+
+ <Link
+      to="https://scios.desci.community"
+      target="_blank" className="self-center"
+          > <button className=" text self-center  font-ubuntu font-
+            [400] text-white text-[12px] xl:text-[18px] 2xl:text-
+            [20px] border-[1px] border-white transition duration-500
+            ease-in-out transform     rounded-[4px] py-3 px-4
+            uppercase"> Explore the SciOS Workshops
+              
+            </button> </Link>
+        </div>
+
+        <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 ">
+          <p className="hidden lg:block text font-[400] text-[35px] text-[#54FF7A]">
+            11:00am - 12:00pm
+          </p>
+
+          <div className="bg-[#2c43a9] p-5 w-[100%] xl:w-[70%] flex gap-2 lg:mt-10 rounded-[4px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6 mt-3 text-white"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+              />
+            </svg>
+            <div>
+              <p className="flex gap-2 font-syne font-[400] text-[32px] text-white">
+                SciOS Venue
+              </p>
+              <p className="font-syne font-[400] text-[14px] md:text-[16px] text-white">
+                 2601 Walnut St. Denver CO, 80205
+              </p>
+            </div>
+          </div>
+ 
+        </div>
+      </div>      
     
 
      
@@ -447,11 +511,13 @@ export default function Schedule() {
           </p>
 
           <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
-            Compute over Data Workshops
+            DID and Permissions Workshops
           </p>
 
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
-            Science today often requires terabytes of data or more. The volume of data involved stretches our current infrastructure beyond its bandwidth and storage limits. This reality makes Open Data nearly impossible on the current tech stack. The Compute Over Data Track aims to understand the difficulties Decentralized Science might face in sending compute jobs to the data. This track seeks to answer questions like - how might we optimize the data processing at the source, minimizing latency and maximizing efficiency? How can we ensure the verifiability of data that we never evaluate ourselves? And what are the remaining security limitations to analyzing ‘proprietary’ data at the source?
+            Join Ceramic, Orbis, and Holonym as we explore technical solutions for decentralized identity in decentralized science applications.
+
+Presenters may use the time to introduce a problem for scientific identity management and explore potential solutions. The focus should be on concrete technical solutions, not on marketing a project or coin.
           </p>
 
  <Link
