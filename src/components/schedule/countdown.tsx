@@ -49,7 +49,7 @@ const RenderByUsingReactChild: React.FC<RenderByUsingReactChildProps> = () => {
         </div>
       )}
       <FlipClockCountdown
-        to={new Date("2024-02-22").getTime() + 24 * 3600 * 1000 + 5000}
+        to={new Date("2024-02-25").getTime() + 24 * 3600 * 1000 + 5000}
 
         digitBlockStyle={{
           width: 100,
