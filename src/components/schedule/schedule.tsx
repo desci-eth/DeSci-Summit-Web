@@ -634,7 +634,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
             </svg>
             <div>
               <p className="flex gap-2 font-syne font-[400] text-[32px] text-white">
-                AuraSci Nexus
+                AuraNova Denver 2024
               </p>
               <p className="font-syne font-[400] text-[14px] md:text-[16px] text-white">
                 1261 Delaware St, Denver, CO 80204
@@ -689,7 +689,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Erin Magennis<span className="text-white"> MuseMatrix</span><br />
+                  Erin Magennis<span className="text-white"> Muse Matrix</span><br />
                 </p>
               </div>
             </div>
@@ -704,38 +704,23 @@ Presenters may use the time to introduce a problem for scientific identity manag
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
                   Dawinny <span className="text-white">ResearchHub</span><br />
-                  Gary <span className="text-white">Arxtect</span><br />
                   Jonathan Kung <span className="text-white">Science Publishing DAO</span><br />
                   Taylor Hulsman <span className="text-white">Molecule</span><br />
-                  Erik VanWinkle <span className="text-white">DeSci Labs</span><br />
+                  Erik Van Winkle <span className="text-white">DeSci Labs</span><br />
                 </p>
               </div>
             </div>
             <div className="bg-[#132990] p-5">
               <p className="text font-[400] text-[30px] text-white">3:22pm</p>
               <p className="font-syne font-[500] text-[40px] text-white">
-                Lightning Talk: Intro to Heto{" "}
+                Lightning Talk:  Intro to Hetu Protocol{" "}
               </p>
               <div className="mt-28">
                 <p className="font-syne font-[400] text-[24px] text-white">
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Prof. Jialin  <span className="text-white">Adavaita Labs</span>
-                </p>
-              </div>
-            </div> 
-          <div className="bg-[#132990] p-5">
-              <p className="text font-[400] text-[30px] text-white">3:45pm</p>
-              <p className="font-syne font-[500] text-[40px] text-white">
-                Lightning Talk: The Power of Decentralized Biobanking{" "}
-              </p>
-              <div className="mt-28">
-                <p className="font-syne font-[400] text-[24px] text-white">
-                  Speaker
-                </p>
-                <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Caspar Barnes  <span className="text-white">Amino Chain</span>
+                  Prof. ​Jialin Li  <span className="text-white">Adavaita Labs</span>
                 </p>
               </div>
             </div> 
@@ -749,11 +734,11 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Josh  <span className="text-white">DeSci World</span><br />
+                  Joshua Bate  <span className="text-white">DeSciWorld</span><br />
                   Shady El Damaty, Ph.D.  <span className="text-white">OpSci, Holonym</span><br />
-                  Shar  <span className="text-white">Qure</span><br />
+                  Shar Qureshi  <span className="text-white">Qure</span><br />
                   Michael Zargham, Ph.D.  <span className="text-white">Blockscience, Metagov</span><br />
-                  Jordan  <span className="text-white">SCINET</span><br />
+                  ​Jordan Smith  <span className="text-white">SCINET</span><br />
                 </p>
               </div>
             </div>
@@ -767,7 +752,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Jenna  <span className="text-white">AthenaDAO</span>
+                  Dr. Jenna Harris  <span className="text-white">AthenaDAO</span>
                 </p>
               </div>
             </div>  
@@ -788,24 +773,38 @@ Presenters may use the time to introduce a problem for scientific identity manag
        <div className="bg-[#132990] p-5">
               <p className="text font-[400] text-[30px] text-white">5:40pm</p>
               <p className="font-syne font-[500] text-[40px] text-white">
-                Panel: Crowdfunding Scientific Research{" "}
+                Panel: The Role of DAOs in Democratizing Access to Research Funding{" "}
               </p>
               <div className="mt-28">
                 <p className="font-syne font-[400] text-[24px] text-white">
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Jenna  <span className="text-white">AthenaDAO</span><br />
-                  Brian Magierski  <span className="text-white">CerebrumDAO</span><br />
-                  Keith Comito  <span className="text-white">Lifespan.io</span><br />
+                  Dr. Jenna Harris  <span className="text-white">AthenaDAO</span><br />
+                  ​Rodrigo Nuñez  <span className="text-white">MesoReef DAO</span><br />
+                  Rachel Brissenden  <span className="text-white">University of Ethereum (UETH); Opolis</span><br />
                   Carlos A. Vera  <span className="text-white">Nerdlabs</span><br />
                 </p>
               </div>
             </div>
     <div className="bg-[#132990] p-5">
+              <p className="text font-[400] text-[30px] text-white">6:27pm</p>
+              <p className="font-syne font-[500] text-[40px] text-white">
+                Lightning Talk: The Power of Decentralized Biobanking{" "}
+              </p>
+              <div className="mt-28">
+                <p className="font-syne font-[400] text-[24px] text-white">
+                  Speaker
+                </p>
+                <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
+                  Caspar Barnes  <span className="text-white">Amino Chain</span>
+                </p>
+              </div>
+            </div> 
+    <div className="bg-[#132990] p-5">
               <p className="text font-[400] text-[30px] text-white">6:45pm</p>
               <p className="font-syne font-[500] text-[40px] text-white">
-                Visionary Session{" "}
+                The DeSci Portal: Embracing the Future{" "}
               </p>
               <div className="mt-28">
                 <p className="font-syne font-[400] text-[24px] text-white">
@@ -813,9 +812,8 @@ Presenters may use the time to introduce a problem for scientific identity manag
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
                   Danette  <span className="text-white">Conexuns</span><br />
-                  Jelani  <span className="text-white">DeSci World</span><br />
-                  Jonathon  <span className="text-white">The Science Commons Initiative</span><br />
-                  Erin Magennis  <span className="text-white">MuseMatrix</span><br />
+                  Jelani Clarke, Ph.D.<span className="text-white">DeSci World</span><br />
+                  Jonathan Starr  <span className="text-white">The Science Commons Initiative</span><br />
                   Chris Hill  <span className="text-white">DeSci Labs</span>
                 </p>
               </div>
@@ -980,7 +978,7 @@ The Open State Data Network (OSDN) Track will dive into issues connecting data a
           </p>
 
           <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
-AuraSci Social  
+AuraNova SocialParty  
           </p>
 
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
