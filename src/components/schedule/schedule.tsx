@@ -634,7 +634,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
             </svg>
             <div>
               <p className="flex gap-2 font-syne font-[400] text-[32px] text-white">
-                AuraNova.Denver 2024
+                AuraNova Denver 2024
               </p>
               <p className="font-syne font-[400] text-[14px] md:text-[16px] text-white">
                 1261 Delaware St, Denver, CO 80204
