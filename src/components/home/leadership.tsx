@@ -45,7 +45,7 @@ export default function Leadership() {
           <div className="bg-[#1833B0] border-[1px] border-transparent hover:border-[#54FF7A] py-5 rounded-lg">
             <img src={Lead10} alt="" className="mx-auto w-[180px] h-[180px]" />
             <p className="lead font-[400] text-[20px] text-white text-center mt-5">
-              Michael Ferreyros.
+              Michael Ferreyros
             </p>
             <p className="lead font-[400] text-[15px] text-white text-center mt-2">
               2023-24
@@ -77,7 +77,7 @@ export default function Leadership() {
           <div className="bg-[#1833B0] border-[1px] border-transparent hover:border-[#54FF7A] py-5 rounded-lg">
             <img src={Lead7} alt="" className="mx-auto w-[180px] h-[180px]" />
             <p className="lead font-[400] text-[20px] text-white text-center mt-5">
-            Tammy Fran, Ph.D.
+            Tammy Francis, Ph.D.
             </p>
             <p className="lead font-[400] text-[15px] text-white text-center mt-2">
               2023
