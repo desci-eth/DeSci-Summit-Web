@@ -10,6 +10,10 @@ import Icon6 from "../../assets/png/icon13.png";
 import Icon7 from "../../assets/png/icon14.png";
 import Icon8 from "../../assets/png/icon15.png";
 import Icon9 from "../../assets/png/icon16.png";
+import Icon10 from "../../assets/png/icon22.png";
+import Icon11 from "../../assets/png/icon23.png";
+import Icon12 from "../../assets/png/icon24.png";
+import Icon13 from "../../assets/png/icon25.png";
 import { Link } from 'react-router-dom';
 
 interface ResponsiveSetting {
@@ -79,15 +83,56 @@ const ImageTwoSlider: React.FC = () => {
 
       <div >
         <div className='items-center'>
+       
            <Link
-              to="https://desci.com/"
+              to="https://openimpact.foundation/"
               target="_blank"
             >
-        <img src={Icon2} alt="" className="h-auto w-[60%] md:w-[50%] 2xl:w-[40%]" />
+        <img src={Icon10} alt="" className="h-auto w-[80%] md:w-[70%] w-[40%]" />
+     </Link>
+
+      </div>
+      </div>   
+
+
+
+      <div >
+        <div className='items-center'>
+           <Link
+              to="https://gridcoin.us/"
+              target="_blank"
+            >
+        <img src={Icon11} alt="" className="h-auto w-[100%] md:w-[70%]" />
       </Link>
       </div>
       </div>
      
+
+      <div >
+        <div className='items-center'>
+           <Link
+              to="https://coophive.network/"
+              target="_blank"
+            >
+        <img src={Icon12} alt="" className="h-auto w-[100%] md:w-[70%]" />
+      </Link>
+      </div>
+      </div>
+     
+
+      <div >
+        <div className='items-center'>
+           <Link
+              to="https://btq.com/"
+              target="_blank"
+            >
+        <img src={Icon13} alt="" className="h-auto w-[100%] md:w-[70%]" />
+      </Link>
+      </div>
+      </div>
+     
+
+
       <div >
         <div className='items-center'>
            <Link

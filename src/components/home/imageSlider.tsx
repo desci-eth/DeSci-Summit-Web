@@ -8,6 +8,11 @@ import Icon4 from "../../assets/png/icon4.png";
 import Icon5 from "../../assets/png/icon5.png";
 import Icon6 from "../../assets/png/icon6.png";
 import Icon7 from "../../assets/png/icon7.png";
+import Icon8 from "../../assets/png/icon18.png";
+import Icon9 from "../../assets/png/icon19.png";
+import Icon10 from "../../assets/png/icon20.png";
+import Icon11 from "../../assets/png/icon21.png";
+import Icon12 from "../../assets/png/icon26.png";
 import { Link } from 'react-router-dom';
 
 interface ResponsiveSetting {
@@ -37,7 +42,7 @@ const ImageSlider: React.FC = () => {
     arrows:false,
     infinite: true,
     speed: 3000,
-    slidesToShow: 6,
+    slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 200,
@@ -67,6 +72,63 @@ const ImageSlider: React.FC = () => {
 
   return (
     <Slider {...settings} className="md:mt-10">
+
+    <div> 
+      <div className="items-center">
+        <Link
+              to="https://researchhub.com/"
+              target="_blank"
+            >
+      <img src={Icon8} alt="" className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-1" />
+      </Link>
+      </div>
+    </div>
+
+    <div> 
+      <div className="items-center">
+        <Link
+              to="https://axondao.io/"
+              target="_blank"
+            >
+      <img src={Icon9} alt="" className="w-[20%] 2xl:w-[20%] h-auto mt-[6px]" />
+      </Link>
+      </div>
+    </div> 
+
+    <div> 
+      <div className="items-center">
+        <Link
+              to="https://humandao.org/"
+              target="_blank"
+            >
+      <img src={Icon10} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
+      </Link>
+      </div>
+    </div>    
+
+
+    <div> 
+      <div className="items-center">
+        <Link
+              to="https://cerebrumdao.com/"
+              target="_blank"
+            >
+      <img src={Icon11} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
+      </Link>
+      </div>
+    </div>  
+
+    <div> 
+      <div className="items-center">
+        <Link
+              to="https://holonym.id/"
+              target="_blank"
+            >
+      <img src={Icon12} alt="" className="w-[80%] 2xl:w-[70%] h-auto" />
+      </Link>
+      </div>
+    </div>      
+
       <div >
         <div className='items-center'>
         <Link
@@ -79,6 +141,7 @@ const ImageSlider: React.FC = () => {
       </div>
 
       <div >
+
         <div className='items-center'>
           <Link
               to="https://www.airfoil.studio/"
