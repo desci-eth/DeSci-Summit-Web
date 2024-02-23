@@ -276,7 +276,7 @@ export default function Schedule() {
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  TBD <span className="text-white"></span>
+                  Shady El Damaty, Ph.D. <span className="text-white"></span>
                 </p>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function Schedule() {
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Chris Hill <span className="text-white">DeSci Labs</span>
+                  Chris Hill, Ph.D. <span className="text-white">DeSci Labs</span>
                 </p>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function Schedule() {
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Shady El Damaty, Ph.D. <span className="text-white">OpSci</span>
+                  Jon Starr <span className="text-white">OpSci</span>
                 </p>
               </div>
             </div>
@@ -704,7 +704,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
                   Dawinny <span className="text-white">ResearchHub</span><br />
-                  Gary <span className="text-white">Arxtect</span><br />
+                  Jiahui Fu <span className="text-white">AuraSci</span><br />
                   Jonathan Kung <span className="text-white">Science Publishing DAO</span><br />
                   Taylor Hulsman <span className="text-white">Molecule</span><br />
                   Erik VanWinkle <span className="text-white">DeSci Labs</span><br />
@@ -749,11 +749,11 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Josh  <span className="text-white">DeSci World</span><br />
+                  Joshua Bate  <span className="text-white">DeSci World</span><br />
                   Shady El Damaty, Ph.D.  <span className="text-white">OpSci, Holonym</span><br />
-                  Shar  <span className="text-white">Qure</span><br />
+                  Shar Qureshi  <span className="text-white">Qure</span><br />
                   Michael Zargham, Ph.D.  <span className="text-white">Blockscience, Metagov</span><br />
-                  Jordan  <span className="text-white">SCINET</span><br />
+                  Jordan Smith<span className="text-white">SCINET</span><br />
                 </p>
               </div>
             </div>
@@ -795,28 +795,57 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
+                  Rodrigo Nuñez  <span className="text-white">MesoReef DAO</span><br />
                   Jenna  <span className="text-white">AthenaDAO</span><br />
-                  Brian Magierski  <span className="text-white">CerebrumDAO</span><br />
-                  Keith Comito  <span className="text-white">Lifespan.io</span><br />
+                  Rachel Brissenden  <span className="text-white">University of Ethereum, Opolis</span><br />
                   Carlos A. Vera  <span className="text-white">Nerdlabs</span><br />
+                  Jelani Clarke, Ph.D.  <span className="text-white">DeSci World</span><br />                  
                 </p>
               </div>
             </div>
+
+
+  <div className="bg-[#132990] p-5">
+              <p className="text font-[400] text-[30px] text-white">6:27pm</p>
+              <p className="font-syne font-[500] text-[40px] text-white">
+                Lightning Talk: The Power of Decentralized Biobanking{" "}
+              </p>
+              <div className="mt-28">
+                <p className="font-syne font-[400] text-[24px] text-white">
+                  Speaker
+                </p>
+                <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
+                  Caspar Barnes  <span className="text-white">AminoChain</span>
+                </p>
+              </div>
+            </div>  
+
     <div className="bg-[#132990] p-5">
               <p className="text font-[400] text-[30px] text-white">6:45pm</p>
               <p className="font-syne font-[500] text-[40px] text-white">
-                Visionary Session{" "}
+                The DeSci Portal: Embracing the Future {" "}
               </p>
+              <p className="font-syne font-[500] text-[40px] text-white">
+                     <Link
+      to="http://desciportal.xyz/"
+      target="_blank" className="self-center"
+          > <button className=" text self-center  font-ubuntu font-
+            [400] text-white text-[12px] xl:text-[18px] 2xl:text-
+            [20px] border-[1px] border-white transition duration-500
+            ease-in-out transform     rounded-[4px] py-3 px-4
+            uppercase"> RSVP for the DeSci Portal
+            </button> </Link>
+            </p>
               <div className="mt-28">
                 <p className="font-syne font-[400] text-[24px] text-white">
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
                   Danette  <span className="text-white">Conexuns</span><br />
-                  Jelani  <span className="text-white">DeSci World</span><br />
-                  Jonathon  <span className="text-white">The Science Commons Initiative</span><br />
+                  Jelani Clarke, Ph.D.<span className="text-white">DeSci World</span><br />
+                  Jon Starr  <span className="text-white">The Science Commons Initiative</span><br />
                   Erin Magennis  <span className="text-white">MuseMatrix</span><br />
-                  Chris Hill  <span className="text-white">DeSci Labs</span>
+                  Chris Hill, Ph.D.  <span className="text-white">DeSci Labs</span>
                 </p>
               </div>
             </div>
@@ -1501,7 +1530,7 @@ Speaker & VIP Dinner
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Matthew Akamatsu, Ph.D. <span className="text-white">University Colorado</span>
+                  Matthew Akamatsu, Ph.D. <span className="text-white">University of Washington</span>
                 </p>
               </div>
             </div>
@@ -1627,6 +1656,24 @@ Speaker & VIP Dinner
             </div>
 
 
+<div className="bg-[#132990] p-5">
+              <p className="text font-[400] text-[30px] text-white">2:50pm</p>
+              <p className="font-syne font-[500] text-[40px] text-white">
+              A word from the coordination.network - taking action on today's learnings
+
+              </p>
+              <div className="mt-28">
+                <p className="font-syne font-[400] text-[24px] text-white">
+                  Speaker
+                </p>
+                <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
+                  Martin Karlsson <span className="text-white">Coordination.Network</span>
+                </p>
+              
+              </div>
+            </div>            
+
+
         <div className="grid">
             <div className="bg-[#132990] p-5">
               <p className="text font-[400] text-[30px] text-white">2:55pm</p>
@@ -1707,6 +1754,22 @@ Speaker & VIP Dinner
             </div>
 
 
+<div className="bg-[#132990] p-5">
+              <p className="text font-[400] text-[30px] text-white">5:00pm</p>
+              <p className="font-syne font-[500] text-[40px] text-white">
+Building the Social Layer of DeSci
+              </p>
+              <div className="mt-28">
+                <p className="font-syne font-[400] text-[24px] text-white">
+                  Speaker
+                </p>
+                <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
+                  Edwin Urey <span className="text-white">Partnerships @ ResearchHub
+</span>
+                </p>
+              
+              </div>
+            </div>
 
 
           </div>
