@@ -25,7 +25,7 @@ export default function Expect() {
             <span className="underline ml-[4px]">DeSci DAOs</span>, and so much more.
           </p>
           <p className=" font-syne font-[400] text-[20px] lg:text-[20px]  xl:text-[30px]  text-white mt-4 md:w-[90%] 2xl:w-[80%]">
-            Join us from February 27th through March 2nd for a thrilling
+            Join us from February 26th through March 1st for a thrilling
             exploration of all things DeSci
           </p>
         </div>
