@@ -3,6 +3,7 @@ import Card from "../../assets/png/Group 1627.png";
 import Card2 from "../../assets/png/Group 1628.png";
 import Card3 from "../../assets/png/Group 1630.png";
 import Card4 from "../../assets/png/Group 1631.png";
+import Card5 from "../../assets/png/Group 1699.png";
 
 
 export default function Brought() {
@@ -40,6 +41,10 @@ export default function Brought() {
 
             <img src={Card3} alt="" className=" mt-5 md:mt-0" />
             </Link>
+           <Link to="https://protocol.ai" target="_blank" className="md:w-[50%]">
+
+            <img src={Card5} alt="" className=" mt-5 md:mt-0" />
+            </Link>            
           </div>
         </div>
       </div>
