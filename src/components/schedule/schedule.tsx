@@ -833,7 +833,7 @@ Presenters may use the time to introduce a problem for scientific identity manag
             [400] text-white text-[12px] xl:text-[18px] 2xl:text-
             [20px] border-[1px] border-white transition duration-500
             ease-in-out transform     rounded-[4px] py-3 px-4
-            uppercase"> RSVP for the DeSci Portal
+            uppercase"> Explore the DeSci Portal
             </button> </Link>
             </p>
               <div className="mt-28">
@@ -841,10 +841,9 @@ Presenters may use the time to introduce a problem for scientific identity manag
                   Speakers
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Danette  <span className="text-white">Conexuns</span><br />
+                  Danette  <span className="text-white"><Link to="https://conexuns.org" target="_blank" className="self-center"> Conexuns </Link></span><br />
                   Jelani Clarke, Ph.D.<span className="text-white">DeSci World</span><br />
                   Jon Starr  <span className="text-white">The Science Commons Initiative</span><br />
-                  Erin Magennis  <span className="text-white">MuseMatrix</span><br />
                   Chris Hill, Ph.D.  <span className="text-white">DeSci Labs</span>
                 </p>
               </div>
@@ -1013,7 +1012,22 @@ AuraSci Social
           </p>
 
           <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
-DeSci Networking sponsored by AuraSci, providing a platform to forge new connections, discuss ideas, and explore potential collaborations within the decentralized science community. </p>
+DeSci Networking sponsored by AuraSci, providing a platform to forge new connections, discuss ideas, and explore potential collaborations within the decentralized science community. 
+</p>
+
+
+            <p className="font-syne font-[500] text-[40px] text-white">
+                     <Link
+      to="https://lu.ma/h051inon"
+      target="_blank" className="self-center"
+          > <button className=" text self-center  font-ubuntu font-
+            [400] text-white text-[12px] xl:text-[18px] 2xl:text-
+            [20px] border-[1px] border-white transition duration-500
+            ease-in-out transform     rounded-[4px] py-3 px-4
+            uppercase"> RSVP for the Social
+            </button> </Link>
+            </p>
+
         </div>
 
         <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 ">
@@ -1220,7 +1234,7 @@ Speaker & VIP Dinner
 
         <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 ">
           <p className="hidden lg:block text font-[400] text-[35px] text-[#54FF7A]">
-            6:00pm - 9:00pm
+            7:30pm - 9:00pm
           </p>
 
           <div className="bg-[#2c43a9] p-5 w-[100%] xl:w-[70%] flex gap-2 lg:mt-10 rounded-[4px]">
@@ -1245,8 +1259,7 @@ Speaker & VIP Dinner
             </svg>
             <div>
               <p className="flex gap-2 font-syne font-[400] text-[32px] text-white">
-                Venue TBD
-              </p>
+                Details Shared in Speakers Telegram Channel              </p>
               <p className="font-syne font-[400] text-[14px] md:text-[16px] text-white">
               </p>
             </div>
@@ -1326,7 +1339,7 @@ Speaker & VIP Dinner
    
         <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 lg:border-r-[1px] border-[#9D84FF]">
           <p className="hidden lg:block text font-[400] text-[35px] text-[#54FF7A]">
-            9:50am - 12:05pm
+            8:30am - 5:00pm
           </p>
 
           <div className="bg-[#2c43a9] p-5 w-[100%] xl:w-[70%] flex gap-2 lg:mt-10 rounded-[4px]">
@@ -1775,6 +1788,71 @@ Building the Social Layer of DeSci
           </div>
 
         )}
+
+<div className="grid lg:grid-cols-12 gap-10 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  border-b-[1px] border-[#9D84FF] ">
+        <div className="lg:col-span-8 py-5 md:py-10 lg:border-r-[1px] border-[#9D84FF] ">
+          <p className="block lg:hidden text font-[400] text-[35px] text-[#54FF7A]">
+            6:00pm - 9:00pm
+          </p>
+
+          <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
+DeSci Summit Party by OpSci
+          </p>
+
+          <p className="font-syne font-[500] text-[18px] md:text-[20px] lg:text-[20px]  xl:text-[25px] mt-5 text-white ">
+​Join us for an exclusive happy hour celebrating the culmination of the DeSci Summit! This festive gathering, graciously hosted by Opsci, is your opportunity to connect with the brightest minds in web-native research and toast to the collective achievements of this dynamic field. 
+</p>
+
+
+            <p className="font-syne font-[500] text-[40px] text-white">
+                     <Link
+      to="https://lu.ma/DeSciParty"
+      target="_blank" className="self-center"
+          > <button className=" text self-center  font-ubuntu font-
+            [400] text-white text-[12px] xl:text-[18px] 2xl:text-
+            [20px] border-[1px] border-white transition duration-500
+            ease-in-out transform     rounded-[4px] py-3 px-4
+            uppercase"> Limited Capacity, RSVP NOW
+            </button> </Link>
+            </p>
+
+        </div>
+
+        <div className="lg:col-span-4 pb-5 lg:pb-0 lg:pt-5 ">
+          <p className="hidden lg:block text font-[400] text-[35px] text-[#54FF7A]">
+            5:30pm - 7:30pm
+          </p>
+
+          <div className="bg-[#2c43a9] p-5 w-[100%] xl:w-[70%] flex gap-2 lg:mt-10 rounded-[4px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6 mt-3 text-white"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+              />
+            </svg>
+            <div>
+              <p className="flex gap-2 font-syne font-[400] text-[32px] text-white">
+                Bierstadt Lagerhaus
+              </p>
+              <p className="font-syne font-[400] text-[14px] md:text-[16px] text-white">
+2875 Blake St, Denver, CO 80205              </p>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
 
       {/*<div className="grid lg:grid-cols-12 gap-10 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  border-b-[1px] border-[#9D84FF] ">
