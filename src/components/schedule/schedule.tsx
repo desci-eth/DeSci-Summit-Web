@@ -376,7 +376,7 @@ export default function Schedule() {
  <div className="grid lg:grid-cols-12 gap-10 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto  border-b-[1px] border-[#9D84FF] ">
         <div className="lg:col-span-8 py-5 md:py-10 lg:border-r-[1px] border-[#9D84FF] ">
           <p className="block lg:hidden text font-[400] text-[35px] text-[#54FF7A]">
-            9:30am - 11am
+            9:00am - 11am
           </p>
 
           <p className=" font-syne font-[400] text-white text-[42px] lg:text-[50px] xl:text-[64px]  leading-[50px]">
