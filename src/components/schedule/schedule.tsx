@@ -306,7 +306,7 @@ export default function Schedule() {
                   Speaker
                 </p>
                 <p className="font-syne font-[400] text-[18px] text-[#54FF7A]">
-                  Levi Rybaolv <span className="text-white">CoopHive</span>
+                  Levi Rybalov <span className="text-white">CoopHive</span>
                 </p>
               </div>
             </div>
