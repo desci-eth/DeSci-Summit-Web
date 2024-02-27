@@ -27,7 +27,7 @@ export default function Schedules() {
     <>
       <div className="relative">
         <Navbar />
-        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto md:border-b-[1px] lg:border-[#9D84FF] pb-5">
+        <div className="grid md:grid-cols-2 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto border-b-[1px] border-[#9D84FF] pb-5">
           <div className="mt-5 md:mt-14">
             <p className="font-syne font-[400] text-[70px] md:text-[80px] lg:text-[90px] xl:text-[96px] text-[#54FF7A]">
               Schedule
@@ -64,24 +64,27 @@ export default function Schedules() {
                 </svg>
               </button>
 
-<Link to="https://airtable.com/apptAi2tFe7I5lDvn/shryNlfnencagSmCO" target="_blank">
-              <button className="mt-5 md:mt-0 text flex gap-2  font-ubuntu font-[400] text-[#54FF7A] text-[17px] border-[1px] border-[#54FF7A] transition duration-500 ease-in-out transform  hover:bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6   uppercase">
-                sponsorships
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-4  h-4  self-center"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </button>
+              <Link
+                to="https://airtable.com/apptAi2tFe7I5lDvn/shryNlfnencagSmCO"
+                target="_blank"
+              >
+                <button className="mt-5 md:mt-0 text flex gap-2  font-ubuntu font-[400] text-[#54FF7A] text-[17px] border-[1px] border-[#54FF7A] transition duration-500 ease-in-out transform  hover:bg-[#54FF7A] hover:text-white   rounded-[4px] py-4 px-8 md:px-6   uppercase">
+                  sponsorships
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-4  h-4  self-center"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </button>
               </Link>
             </div>
           </div>
@@ -96,7 +99,7 @@ export default function Schedules() {
           className="absolute top-0 right-0 block md:hidden"
         />
       </div>
-      <div className="pt-10 pb-20 border-b-[1px] border-[#4FA366]">
+      <div className="md:pt-10 pb-20 border-b-[1px] border-[#4FA366]">
         <Countdown />
       </div>
       <Schedule />
@@ -110,7 +113,7 @@ export default function Schedules() {
             <img src={Down} alt="" className="cursor-pointer " />
           </div>
         </div>
-         <div className="col-span-8 lg:pl-10 lg:py-10 ">
+        <div className="col-span-8 lg:pl-10 lg:py-10 ">
           <p className="font-syne font-[400] text-[#54FF7A] text-[35px] md:text-[48px] pt-5 lg:pt-0">
             How can I join?
           </p>

@@ -21,8 +21,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className="grid grid-cols-2 lg:grid-cols-12 w-
-  [90%] md:w-[97%] 2xl:w-[80%] mx-auto py-5"
+        className="grid grid-cols-2 lg:grid-cols-12 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto py-5 "
       >
         <div className="lg:col-span-2">
           {" "}
@@ -48,9 +47,7 @@ export default function Navbar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 xl:w-5 h-4
-              xl:h-5 self-center"
-              >
+                className="w-4 xl:w-5 h-4 xl:h-5 self-center ">
                 {/* {isOpen ? (
                   <path
                     strokeLinecap="round"
@@ -58,12 +55,12 @@ export default function Navbar() {
                     d="M4.75 15.75l7.5-7.5 7.5 7.5"
                   />
                 ) : ( */}
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m19.5 8.25-7.5
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m19.5 8.25-7.5
                      7.5-7.5-7.5"
-                  />
+                />
                 {/* )} */}
               </svg>
             </button>
@@ -159,7 +156,7 @@ export default function Navbar() {
               </div>
             )} */}
           </div>
-          <div  className="self-center">
+          <div className="self-center">
             <button
               onClick={toggleDropdowns}
               className="self-center flex gap-1 font-syne font-
@@ -167,8 +164,7 @@ export default function Navbar() {
                    2xl:text-[20px] uppercase"
             >
               <Link to="/schedule" className="self-center">
-
-              SCHEDULE
+                SCHEDULE
               </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -382,9 +378,7 @@ export default function Navbar() {
         </div>
         <div
           onClick={() => setOpen(true)}
-          className="block
-                   lg:hidden self-center ml-auto"
-        >
+          className="block lg:hidden self-center ml-auto relative z-10">
           <HiMenuAlt3 className="text-[30px] text-white " />
         </div>
       </div>
@@ -402,7 +396,7 @@ export default function Navbar() {
           >
             <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
-          <div className="fixed inset-0 overflow-hidden">
+          <div className="fixed inset-0 overflow-hidden  z-10">
             <div className="absolute inset-0 overflow-hidden">
               <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-0">
                 <Transition.Child
@@ -435,9 +429,9 @@ export default function Navbar() {
                         </button> */}
                       </div>
                     </Transition.Child>
-                    <div className="flex w-[100%] ml-auto h-full flex-col overflow-y-scroll  bg-[#152ea0] shadow-xl">
-                      <div className=" container grid grid-cols-1 py-1">
-                        <div className="flex justify-between px-5 border-b-[1px] border-white py-2">
+                    <div className="flex w-[100%] ml-auto h-full flex-col overflow-y-scroll  bg-[#152ea0] shadow-xl ">
+                      <div className=" container grid grid-cols-1 py-1 ">
+                        <div className="flex justify-between px-5 border-b-[1px] border-white py-2 ">
                           <img src={Logo} alt="" />
 
                           <div className="w-[50%] px-3"></div>

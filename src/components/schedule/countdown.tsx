@@ -3,15 +3,10 @@ import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import { useEffect, useState } from "react";
 import Time from "../../assets/svg/TIME REMAINING.svg";
 
-
-
 interface CompletedProps {}
 
 const Completed: React.FC<CompletedProps> = () => {
-  return (
- <>
-    </>
-  )
+  return <></>;
 };
 
 interface RenderByUsingReactChildProps {}
@@ -38,9 +33,9 @@ const RenderByUsingReactChild: React.FC<RenderByUsingReactChildProps> = () => {
       {isCountdownComplete ? ( // Conditional rendering based on isCountdownComplete
         <Completed />
       ) : (
-        <div className="pt-10 ">
-          <p className="text-center font-syne font-[400] text-[26px] md:text-[75px] lg:text-[84px] xl:text-[90px] text-[#54FF7A] leading-[35px] md:leading-[90px]">
-          COMING SOON
+        <div className=" md:pt-10 ">
+          <p className="text-center font-syne font-[400] text-[45px] md:text-[75px] lg:text-[84px] xl:text-[90px] text-[#54FF7A] leading-[55px] md:leading-[90px]">
+            COMING SOON
           </p>
           <p className="font-syne font-[400] text-[15px] md:text-[18px] text-[#54FF7A] text-center">
             *all times are in the local time zone (MT)
@@ -49,8 +44,8 @@ const RenderByUsingReactChild: React.FC<RenderByUsingReactChildProps> = () => {
         </div>
       )}
       <FlipClockCountdown
-        to={new Date("2024-02-25").getTime() + 24 * 3600 * 1000 + 5000}
 
+        to={new Date("2024-03-6").getTime() + 24 * 3600 * 1000 + 5000}
         digitBlockStyle={{
           width: 100,
           height: 150,
@@ -66,10 +61,11 @@ const RenderByUsingReactChild: React.FC<RenderByUsingReactChildProps> = () => {
           textTransform: "uppercase",
           fontFamily: '"Share Tech", sans-serif',
         }}
-        separatorStyle={{ color: "white", size: "20px" }}
+        separatorStyle={{ color: "white", size: "20px" }} 
+        className={isMobile ? "hideSeparator" : ""}
         dividerStyle={{ color: "#152ea0", height: 4 }}
         duration={0.5}
-        onComplete={() => setIsCountdownComplete(true)} // Set the countdown completion state to true when the countdown finishes
+        onComplete={() => setIsCountdownComplete(true)} 
       />
     </>
   );

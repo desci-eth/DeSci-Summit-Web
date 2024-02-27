@@ -14,6 +14,12 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 
+@media (max-width: 768px) { /* Adjust this based on your mobile breakpoint */
+  .hideSeparator  {
+      display: none;
+  }
+}
+
 .events .slick-slide {
   transition: transform 0.5s ease !important; /* Smooth transition for zoom effect */
 }
