@@ -14,7 +14,7 @@ export default function Denver() {
       <div className="grid lg:grid-cols-2 gap-5 md:gap-20 w-[90%] md:w-[97%] 2xl:w-[80%] mx-auto pt-5 pb-5 lg:pb-0 lg:pt-16 ">
         <div className="block lg:hidden">
           <p className="font-syne font-[400] text-[32px] md:text-[50px] xl:text-[64px] text-white">
-            23 Feb — Mar 1 2024
+            26 Feb — Mar 1 2024
           </p>
           <p className="font-syne font-[400] text-[32px] md:text-[50px] xl:text-[64px] text-white">
             Denver, Colorado
@@ -59,7 +59,7 @@ export default function Denver() {
         </div>
         <div className="hidden lg:block">
           <p className="font-syne font-[400] text-[50px] xl:text-[64px] text-white">
-            23 Feb — Mar 1 2024
+            26 Feb — Mar 1 2024
           </p>
           <p className="font-syne font-[400] text-[50px] xl:text-[64px] text-white">
             Denver, Colorado

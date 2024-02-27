@@ -9,6 +9,7 @@ import Card7 from "../../assets/png/Group 1637.png";
 import Card8 from "../../assets/png/Group 1638.png";
 import Card9 from "../../assets/png/Group 1639.png";
 import Card10 from "../../assets/png/Group 1640.png";
+import Card11 from "../../assets/png/Group 1699.png";
 
 export default function Support() {
   return (
@@ -46,6 +47,10 @@ export default function Support() {
            <Link to="https://desci.com" target="_blank" className="md:w-[50%]">
 
             <img src={Card3} alt="" className="mt-5 md:mt-0" />
+            </Link>
+            <Link to="https://protocol.ai/" target="_blank" className="md:w-[50%]">
+            
+            <img src={Card11} alt=""  />
             </Link>
           </div>
         </div>
