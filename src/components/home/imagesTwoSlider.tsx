@@ -82,13 +82,13 @@ const ImageTwoSlider: React.FC = () => {
       </div>
 
       <div >
-        <div className='items-center'>
+        <div className='items-end'>
        
            <Link
               to="https://openimpact.foundation/"
               target="_blank"
             >
-        <img src={Icon10} alt="" className="h-auto w-[80%] md:w-[70%] w-[40%]" />
+        <img src={Icon10} alt="" className="h-auto w-[80%] md:w-[70%] mt-2 lg:mt-5" />
      </Link>
 
       </div>
@@ -102,7 +102,7 @@ const ImageTwoSlider: React.FC = () => {
               to="https://gridcoin.us/"
               target="_blank"
             >
-        <img src={Icon11} alt="" className="h-auto w-[100%] md:w-[70%]" />
+        <img src={Icon11} alt="" className="h-auto w-[80%] md:w-[70%] mt-4 md:mt-3 lg:mt-8" />
       </Link>
       </div>
       </div>
@@ -114,7 +114,7 @@ const ImageTwoSlider: React.FC = () => {
               to="https://coophive.network/"
               target="_blank"
             >
-        <img src={Icon12} alt="" className="h-auto w-[100%] md:w-[70%]" />
+        <img src={Icon12} alt="" className="h-auto w-[80%] md:w-[70%] mt-4 md:mt-3 lg:mt-8" />
       </Link>
       </div>
       </div>
@@ -126,7 +126,7 @@ const ImageTwoSlider: React.FC = () => {
               to="https://btq.com/"
               target="_blank"
             >
-        <img src={Icon13} alt="" className="h-auto w-[100%] md:w-[70%]" />
+        <img src={Icon13} alt="" className="h-auto w-[80%] md:w-[70%] mt-2 md:mt-2 lg:mt-6 xl:mt-5" />
       </Link>
       </div>
       </div>
@@ -139,7 +139,7 @@ const ImageTwoSlider: React.FC = () => {
               to="https://www.joinef.com/"
               target="_blank"
             >
-        <img src={Icon3} alt="" className="h-auto w-[60%] md:w-[50%] 2xl:w-[40%]" />
+        <img src={Icon3} alt="" className="h-auto w-[60%] md:w-[50%] 2xl:w-[40%] lg:mt-4 xl:mt-0" />
       </Link>
       </div>
       </div>
@@ -150,7 +150,7 @@ const ImageTwoSlider: React.FC = () => {
               to="https://www.impact-finance.io/"
               target="_blank"
             >
-        <img src={Icon4} alt="" className="h-auto w-[60%] md:w-[50%] 2xl:w-[40%]" />
+        <img src={Icon4} alt="" className="h-auto w-[60%] md:w-[50%] 2xl:w-[40%] lg:mt-3 xl:mt-0" />
       </Link>
       </div>
       </div>

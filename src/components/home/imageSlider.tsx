@@ -1,4 +1,4 @@
-import Slider from 'react-slick';
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Icon from "../../assets/png/icon.png";
@@ -13,7 +13,7 @@ import Icon9 from "../../assets/png/icon19.png";
 import Icon10 from "../../assets/png/icon20.png";
 import Icon11 from "../../assets/png/icon21.png";
 import Icon12 from "../../assets/png/icon26.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 interface ResponsiveSetting {
   breakpoint: number;
@@ -30,7 +30,7 @@ interface Settings {
   slidesToScroll: number;
   autoplay: boolean;
   autoplaySpeed: number;
-  arrows:boolean;
+  arrows: boolean;
   centerMode: boolean;
   centerPadding: string;
   responsive: ResponsiveSetting[];
@@ -39,7 +39,7 @@ interface Settings {
 const ImageSlider: React.FC = () => {
   const settings: Settings = {
     dots: false,
-    arrows:false,
+    arrows: false,
     infinite: true,
     speed: 3000,
     slidesToShow: 10,
@@ -47,7 +47,7 @@ const ImageSlider: React.FC = () => {
     autoplay: true,
     autoplaySpeed: 200,
     centerMode: true,
-    centerPadding: ' 60px', 
+    centerPadding: " 60px",
     responsive: [
       {
         breakpoint: 1600,
@@ -72,140 +72,123 @@ const ImageSlider: React.FC = () => {
 
   return (
     <Slider {...settings} className="md:mt-10">
-
-    <div> 
-      <div className="items-center">
-        <Link
-              to="https://researchhub.com/"
-              target="_blank"
-            >
-      <img src={Icon8} alt="" className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-1" />
-      </Link>
-      </div>
-    </div>
-
-    <div> 
-      <div className="items-center">
-        <Link
-              to="https://axondao.io/"
-              target="_blank"
-            >
-      <img src={Icon9} alt="" className="w-[20%] 2xl:w-[20%] h-auto mt-[6px]" />
-      </Link>
-      </div>
-    </div> 
-
-    <div> 
-      <div className="items-center">
-        <Link
-              to="https://humandao.org/"
-              target="_blank"
-            >
-      <img src={Icon10} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
-      </Link>
-      </div>
-    </div>    
-
-
-    <div> 
-      <div className="items-center">
-        <Link
-              to="https://cerebrumdao.com/"
-              target="_blank"
-            >
-      <img src={Icon11} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
-      </Link>
-      </div>
-    </div>  
-
-    <div> 
-      <div className="items-center">
-        <Link
-              to="https://holonym.id/"
-              target="_blank"
-            >
-      <img src={Icon12} alt="" className="w-[80%] 2xl:w-[70%] h-auto" />
-      </Link>
-      </div>
-    </div>      
-
-      <div >
-        <div className='items-center'>
-        <Link
-              to="https://www.weavechain.com/"
-              target="_blank"
-            >
-        <img src={Icon} alt="" className="w-[80%] 2xl:w-[60%] h-auto" />
-        </Link>
-      </div>
+      <div>
+        <div className="items-center">
+          <Link to="https://researchhub.com/" target="_blank">
+            <img
+              src={Icon8}
+              alt=""
+              className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-1"
+            />
+          </Link>
+        </div>
       </div>
 
-      <div >
+      <div>
+        <div className="items-center">
+          <Link to="https://axondao.io/" target="_blank">
+            <img
+              src={Icon9}
+              alt=""
+              className="w-[20%] 2xl:w-[20%] h-auto mt-[6px] ml-5 md:ml-8 lg:ml-12"
+            />
+          </Link>
+        </div>
+      </div>
 
-        <div className='items-center'>
-          <Link
-              to="https://www.airfoil.studio/"
-              target="_blank"
-            >
-        <img src={Icon2} alt="" className="w-[70%] 2xl:w-[50%] h-auto" />
-      </Link>
+      <div>
+        <div className="items-center">
+          <Link to="https://humandao.org/" target="_blank">
+            <img src={Icon10} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
+          </Link>
+        </div>
       </div>
-      </div>
-      <div >
-        <div className='items-center'>
-          <Link
-              to="https://www.molecule.xyz/"
-              target="_blank"
-            >
-        <img src={Icon3} alt="" className="w-[70%] 2xl:w-[50%] h-auto" />
-      </Link>
-      </div>
-      </div>
-      <div >
-        <div className='items-center'>
-          <Link
-              to="https://www.bio.xyz/"
-              target="_blank"
-            >
-        <img src={Icon4} alt="" className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-2" />
-      </Link>
-      </div>
-      </div>
-      <div >
-        <div className='items-center'>
-          <Link
-              to="https://www.vitadao.com/"
-              target="_blank"
-            >
-        <img src={Icon5} alt="" className="w-[70%] 2xl:w-[50%] h-auto mt-[6px] md:mt-3" />
-      </Link>
-      </div>
-      </div>
-      <div >
-        <div className='items-center'>
-          <Link
-              to="https://fluence.network/"
-              target="_blank"
-            >
-        <img src={Icon6} alt="" className="w-[60%] 2xl:w-[40%] h-auto mt-1 md:mt-2" />
-      </Link>
-      </div>
-      </div>
-     
-     <div> 
-      <div className="items-center">
-        <Link
-              to="https://desci.com/"
-              target="_blank"
-            >
-      <img src={Icon7} alt="" className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-1" />
-      </Link>
-      </div>
-    </div>
-    
 
+      <div>
+        <div className="items-center">
+          <Link to="https://cerebrumdao.com/" target="_blank">
+            <img src={Icon11} alt="" className="w-[50%] 2xl:w-[30%] h-auto" />
+          </Link>
+        </div>
+      </div>
+
+      <div>
+        <div className="items-cnter">
+          <Link to="https://holonym.id/" target="_blank" className="">
+            <img src={Icon12} alt="" className="w-[80%] 2xl:w-[70%] h-auto mt-2" />
+          </Link>
+        </div>
+      </div>
+
+      <div>
+        <div className="items-center">
+          <Link to="https://www.weavechain.com/" target="_blank">
+            <img src={Icon} alt="" className="w-[80%] 2xl:w-[60%] h-auto  " />
+          </Link>
+        </div>
+      </div>
+
+      <div>
+        <div className="items-center">
+          <Link to="https://www.airfoil.studio/" target="_blank">
+            <img src={Icon2} alt="" className="w-[70%] 2xl:w-[50%] h-auto " />
+          </Link>
+        </div>
+      </div>
+      <div>
+        <div className="items-center">
+          <Link to="https://www.molecule.xyz/" target="_blank">
+            <img src={Icon3} alt="" className="w-[70%] 2xl:w-[50%] h-auto " />
+          </Link>
+        </div>
+      </div>
+      <div>
+        <div className="items-center">
+          <Link to="https://www.bio.xyz/" target="_blank">
+            <img
+              src={Icon4}
+              alt=""
+              className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-2"
+            />
+          </Link>
+        </div>
+      </div>
+      <div>
+        <div className="items-center">
+          <Link to="https://www.vitadao.com/" target="_blank">
+            <img
+              src={Icon5}
+              alt=""
+              className="w-[70%] 2xl:w-[50%] h-auto mt-[6px] md:mt-3"
+            />
+          </Link>
+        </div>
+      </div>
+      <div>
+        <div className="items-center">
+          <Link to="https://fluence.network/" target="_blank">
+            <img
+              src={Icon6}
+              alt=""
+              className="w-[60%] 2xl:w-[40%] h-auto mt-1 md:mt-2"
+            />
+          </Link>
+        </div>
+      </div>
+
+      <div>
+        <div className="items-center">
+          <Link to="https://desci.com/" target="_blank">
+            <img
+              src={Icon7}
+              alt=""
+              className="w-[70%] 2xl:w-[50%] h-auto mt-1 md:mt-1"
+            />
+          </Link>
+        </div>
+      </div>
     </Slider>
   );
-}; 
+};
 
 export default ImageSlider;
