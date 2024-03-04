@@ -1,73 +1,31 @@
 import React, { useState } from "react";
 import Forms from "../../assets/png/form.png";
-import Mailjet from "node-mailjet";
-import { config } from "process";
+import axios from "axios";
+import { toastManage } from "../../toastManage";
 
 export default function Form() {
   const [email, setEmail] = useState("");
 
-  const MJ_APIKEY_PUBLIC: string = "ad3b0abbc8b181c14a4aa58dc8368ac1";
-  const MJ_APIKEY_PRIVATE: string = "f134b585f1dabf0b4f4630b8a0c849a6";
-
   const handleSubscribe = async (e: any) => {
-    e.preventDefault(); // Prevent the form from refreshing the page
+    e.preventDefault();
 
-    // const apiEndpoint = 'https://api.mailjet.com/v3/REST/contact';
-    // const data = {
-    //     "IsExcludedFromCampaigns": "true",
-    //     "Name": "New Contact",
-    //     "Email": email
-    // };
+    await axios("https://api.canguard.de/user/mailjet", {
+      method: "post",
 
-    const mailjet = new Mailjet({
-      apiKey: process.env.MJ_APIKEY_PUBLIC || MJ_APIKEY_PUBLIC,
-      apiSecret: process.env.MJ_APIKEY_PRIVATE || MJ_APIKEY_PRIVATE,
-      options:{
-        headers:{
-            "Access-Control-Allow-Origin":"*"
-        },
-        proxy: {
-            protocol: 'https',
-            host: '127.0.0.1',
-            port: 8080,
-            auth: {
-              username: 'test',
-              password: 'password'
-        }
-      }
+      headers: {
+        "Content-Type": "application/json",
       },
-      
-    });
-    const request = mailjet.post("contact", { version: "v3" }).request({
-      IsExcludedFromCampaigns: "true",
-      Name: "New Contact",
-      Email: email,
-    });
-    request
-      .then((result: any) => {
-        console.log(result.body);
+      data: {
+        name: "New Contact",
+        email: email,
+      },
+    })
+      .then(() => {
+        toastManage.success("User Subscribed Successfully");
       })
-      .catch((err: any) => {
-        console.log(err.statusCode);
+      .catch(() => {
+        toastManage.error("Sorry, unable to subscribe!");
       });
-
-    // try {
-    //     const response = await axios.post(apiEndpoint, data, {
-    //         auth: {
-    //             username: MJ_APIKEY_PUBLIC, // Replace with your Mailjet public API key
-    //             password: MJ_APIKEY_PRIVATE
-    //         },
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     });
-
-    //     console.log('Subscription successful:', response.data);
-    //     // You can add more code here to handle successful subscription
-    // } catch (error) {
-    //     console.error('Error in subscription:', error);
-    //     // You can add more code here to handle errors
-    // }
   };
 
   return (

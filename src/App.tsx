@@ -10,11 +10,20 @@ import ScheduleDesktop from "./pages/schedule-desktop";
 import Speakers2021 from "./pages/2021";
 import Speakers2022 from "./pages/2022";
 import Speakers2023 from "./pages/2023";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
   return (
     <>
+      <ToastContainer
+      theme="dark"
+      draggable
+      closeOnClick
+
+      /> 
+
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
